@@ -1,0 +1,2803 @@
+                                     <!DOCTYPE html> <html lang="en-GB" class="b-header--dark-grey--grey b-footer--white--dark-grey"> <head> <title>BBC iPlayer</title> <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <meta name="keywords" content="BBC, iPlayer, TV" /> <meta name="description" content="Watch live BBC TV channels, catch up on TV programmes you missed and view exclusive content on BBC iPlayer." /> <meta name="apple-mobile-web-app-status-barstyle" content="default" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta name="format-detection" content="telephone=no" /> <meta name="msapplication-tap-highlight" content="no" />  <link rel="shortcut icon" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/favicon.ico" /> <link rel="manifest" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/manifest.json" /> <link rel="icon" type="image/png" sizes="32x32" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/shortcut-icon-32.png" /> <link rel="icon" type="image/png" sizes="512x512" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-512.png" /> <link rel="icon" type="image/png" sizes="384x384" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-384.png" /> <link rel="icon" type="image/png" sizes="192x192" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-192.png" /> <link rel="icon" type="image/png" sizes="144x144" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-144.png" /> <link rel="icon" type="image/png" sizes="128x128" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-128.png" /> <link rel="icon" type="image/png" sizes="96x96" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-96.png" /> <link rel="icon" type="image/png" sizes="48x48" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-48.png" /> <link rel="icon" type="image/png" sizes="36x36" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/touch-icon-36.png" /> <link rel="apple-touch-icon-precomposed" sizes="180x180" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-180x180-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="152x152" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-152x152-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-144x144-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="120x120" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-114x114-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="76x76" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-76x76-precomposed.png" /> <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-72x72-precomposed.png" /> <link rel="apple-touch-icon-precomposed" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/touchdevices/apple-touch-icon-precomposed.png" /> <link rel="icon" type="image/png" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/img/icons/shortcut-icon-32.png" />   <link rel="canonical" href="http://www.bbc.co.uk/iplayer" />  <!-- Nav Env: live -->
+<!-- Analytics Web Module: 62 -->
+<!-- NavID Web Module: 0.2.0-143 -->
+<!-- Searchbox Web Module: 126 -->
+<!-- Promo Web Module: 0.0.0-174.b4d6704 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="fb:admins" content="100004154058350"><link rel="stylesheet" href="//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/css/orb.min.css"><!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/css/orb-ie.min.css">
+    <![endif]--><script type="text/javascript">/*<![CDATA[*/
+        window.orb = {
+            lang: 'en',
+            bbcBaseUrl: 'http://www.bbc.co.uk',
+            staticHost: '//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467',
+            figUrl: 'https://fig.bbc.co.uk/frameworks/fig/2/fig.js',
+            partialCookieOvenUrl: 'https://cookie-oven.api.bbc'
+        };
+
+        document.documentElement.className += (document.documentElement.className? ' ' : '') + 'orb-js';
+        window.orb.worldwideNavlinks = '<li class="orb-nav-newsdotcom"><a href="http://www.bbc.com/news/">News</a></li><li class="orb-nav-sport"><a href="http://www.bbc.com/sport/">Sport</a></li><li class="orb-nav-weather"><a href="http://www.bbc.com/weather/">Weather</a></li><li class="orb-nav-shop"><a href="http://shop.bbc.com/">Shop</a></li><li class="orb-nav-earthdotcom"><a href="http://www.bbc.com/earth/">Earth</a></li><li class="orb-nav-travel-dotcom"><a href="http://www.bbc.com/travel/">Travel</a></li><li class="orb-nav-capital"><a href="http://www.bbc.com/capital/">Capital</a></li><li class="orb-nav-culture"><a href="http://www.bbc.com/culture/">Culture</a></li><li class="orb-nav-autos"><a href="http://www.bbc.com/autos/">Autos</a></li><li class="orb-nav-future"><a href="http://www.bbc.com/future/">Future</a></li><li class="orb-nav-tv"><a href="http://www.bbc.co.uk/tv/">TV</a></li><li class="orb-nav-radio"><a href="http://www.bbc.co.uk/radio/">Radio</a></li><li class="orb-nav-cbbc"><a href="http://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="http://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="http://www.bbc.co.uk/food/">Food</a></li><li class="orb-nav-iwonder"><a href="http://www.bbc.co.uk/iwonder">iWonder</a></li><li class="orb-nav-bitesize"><a href="http://www.bbc.co.uk/education">Bitesize</a></li><li class="orb-nav-music"><a href="http://www.bbc.co.uk/music/">Music</a></li><li class="orb-nav-arts"><a href="http://www.bbc.co.uk/arts/">Arts</a></li><li class="orb-nav-makeitdigital"><a href="http://www.bbc.co.uk/makeitdigital">Make It Digital</a></li><li class="orb-nav-taster"><a href="http://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-nature"><a href="http://www.bbc.com/nature/">Nature</a></li><li class="orb-nav-local"><a href="http://www.bbc.co.uk/local/">Local</a></li>';
+     /*]]>*/</script><!-- orb/api must be in the HEAD while the rest of orb.js should be at end of BODY --><script src="//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/js/api.min.js"></script><script type="text/javascript">window.bbcFlagpoles_istats="ON",require.config({paths:{"istats-1":"//nav.files.bbci.co.uk/nav-analytics/0.1.0-62/js/istats-1"}}),require.defined("orb/cookies")||(window.bbccookies?define("orb/cookies",function(){return window.bbccookies}):define("orb/cookies",function(){return{isAllowed:function(e){return!1}}})),require(["istats-1","orb/cookies"],function(e,o){if(o.isAllowed("s1")){var n="//sa.bbc.co.uk/bbc/bbc/s";e.addCollector({name:"default",url:n,separator:"&"});var i="iplayer.tv.page";i&&"unknown"!==i&&e.setCountername(i),window.istats_countername&&e.setCountername(window.istats_countername),e.addLabels("ml_name=webmodule&ml_version=62&blq_e=orbit&blq_r=orbit&blq_s=orbit&blq_v=default&language=en&pal_route=iplayerHome&pal_webapp=tviplayer&prod_name=iplayer&iplayer_type=main&page_layout=stream&object_count_stream=21&app_name=iplayer&app_type=responsive&app_version=1.139.0&page_type=home&language=en-GB&location_nation=eng&location_region=london")}});</script><link rel="stylesheet" href="//static.bbc.co.uk/id/0.36.25/style/id-cta.css"><link rel="stylesheet" href="//static.bbc.co.uk/id/0.36.25/style/id-cta-v5.css"><!--[if IE 8]><link href="//static.bbc.co.uk/id/0.36.25/style/ie8.css" rel="stylesheet"/> <![endif]--><script type="text/javascript">/* <![CDATA[ */ var map = {};  if (typeof(map['jssignals-1']) == 'undefined') { map['jssignals-1'] = 'https://static.bbc.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1'; }  require({paths: map}); /* ]]> */</script><script src="//static.bbc.co.uk/id/0.36.25/modules/idcta/dist/idcta-1.min.js"></script><script type="text/javascript">(function () { if (!window.require) { throw new Error('idcta: could not find require module'); } if(typeof(map) == 'undefined') { var map = {}; } if(!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', "svg").createSVGRect) { document.documentElement.className += ' id-svg'; } var ptrt = RegExp("[\\?&]ptrt=([^&#]*)").exec(document.location.href); var ENDPOINT_URL = '//' + ((window.location.protocol == "https:") ? ('ssl.bbc.co.uk').replace("www.", "ssl.") : ('ssl.bbc.co.uk').replace("ssl.", "www.")); var ENDPOINT_CONFIG = ('/idcta/config?callback&amp;locale=en-GB&ptrt=' + encodeURI((ptrt ? ptrt[1] : document.location.href))).replace(/\&amp;/g, '&'); var ENDPOINT_TRANSLATIONS = '/idcta/translations?callback&locale=en-GB'; map['idapp-1'] = '//static.bbc.co.uk/idapp/0.72.58/modules/idapp/idapp-1'; map['idcta'] = '//static.bbc.co.uk/id/0.36.25/modules/idcta'; map['idcta/config'] = [ENDPOINT_URL + ENDPOINT_CONFIG, '//static.bbc.co.uk/id/0.36.25/modules/idcta/fallbackConfig']; map['idcta/translations'] = [ENDPOINT_URL + ENDPOINT_TRANSLATIONS, '//static.bbc.co.uk/id/0.36.25/modules/idcta/fallbackTranslations']; require({paths: map}); /* * Temporary code * To be removed when old id-statusbar-config is no longer supported */ define('id-statusbar-config', ['idcta/id-config'], function(conf) { return conf; }); define('idcta/id-statusbar-config', ['idcta/id-config'], function(conf) { return conf; }); })();</script><link rel="stylesheet" href="//mybbc.files.bbci.co.uk/notification-ui/2.6.12-mvt/css/main.min.css"><script type="text/javascript">// Globally available search context
+  window.SEARCHBOX={"variant":"default","locale":"en","navSearchboxStaticPrefix":"//nav.files.bbci.co.uk/searchbox/1.0.0-126","searchboxAppStaticPrefix":"//search.files.bbci.co.uk/searchbox-app/1.0.11","searchFormHtml":"<div tabindex=\"-1\" data-reactid=\".1ih4oyrvxts\" data-react-checksum=\"-157208892\"><div data-reactid=\".1ih4oyrvxts.0\"><section class=\"se-searchbox-panel\" data-reactid=\".1ih4oyrvxts.0.0\"><div class=\"se-g-wrap\" data-reactid=\".1ih4oyrvxts.0.0.0\"><div class=\"se-g-layout\" data-reactid=\".1ih4oyrvxts.0.0.0.0\"><div class=\"se-g-layout__item se-searchbox-title\" aria-hidden=\"true\" data-reactid=\".1ih4oyrvxts.0.0.0.0.0\">search</div><div class=\"se-g-layout__item se-searchbox\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1\"><form accept-charset=\"utf-8\" id=\"searchboxDrawerForm\" method=\"get\" action=\"//search.bbc.co.uk/search\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0\"><label class=\"se-searchbox__input\" for=\"se-searchbox-input-field\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.0\"><span class=\"se-sr-only\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.0.0\">Search Term</span><input name=\"q\" type=\"text\" value=\"\" id=\"se-searchbox-input-field\" class=\"se-searchbox__input__field\" maxlength=\"512\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.0.1\"/></label><input type=\"hidden\" name=\"scope\" value=\"\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.2\"/><button type=\"submit\" class=\"se-searchbox__submit\" tabindex=\"0\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.3\">Search</button><button type=\"button\" class=\"se-searchbox__clear se-searchbox__clear--visible\" tabindex=\"0\" data-reactid=\".1ih4oyrvxts.0.0.0.0.1.0.4\">Close</button></form></div></div></div></section><div aria-live=\"polite\" aria-atomic=\"true\" class=\"se-suggestions-container\" data-reactid=\".1ih4oyrvxts.0.1\"><section class=\"se-g-wrap\" data-reactid=\".1ih4oyrvxts.0.1.0\"></section></div></div></div>","searchScopePlaceholder":"<input type=\"hidden\" name=\"scope\" id=\"orb-search-scope\" value=\"iplayer:tv\">","searchScopeParam":"?scope=iplayer:tv","searchScopeTemplate":"iplayer:tv","searchPlaceholderWrapperStart":"Search BBC iPlayer"};
+  window.SEARCHBOX.suppress = false;
+  window.SEARCHBOX.searchScope = SEARCHBOX.searchScopeTemplate.split('-')[0];</script><link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/main.css"><!--[if IE 8]>
+  <script type="text/javascript" src="//nav.files.bbci.co.uk/searchbox/1.0.0-126/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/ie8.css">
+<![endif]--><!--[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]--><script type="text/javascript">require.config({
+        "paths": {
+            "orb/async/_footerpromo": '//nav.files.bbci.co.uk/nav-promo/0.0.0-174.b4d6704/js/async/_footerpromo'
+        }
+    });</script><!-- BBCDOTCOM head --><script type="text/javascript">/*<![CDATA[*/ var _sf_startpt = (new Date()).getTime(); /*]]>*/</script><style type="text/css">.bbccom_display_none{display:none;}</style><script type="text/javascript">/*<![CDATA[*/ var bbcdotcomConfig, googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var bbcdotcom = false; (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"https://static.bbc.co.uk/bbcdotcom/1.40.0/script" } }); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ var bbcdotcom = { adverts: { keyValues: { set: function() {} } }, advert: { write: function () {}, show: function () {}, isActive: function () { return false; }, layout: function() { return { reset: function() {} } } }, config: { init: function() {}, isActive: function() {}, setSections: function() {}, isAdsEnabled: function() {}, setAdsEnabled: function() {}, isAnalyticsEnabled: function() {}, setAnalyticsEnabled: function() {}, setAssetPrefix: function() {}, setVersion: function () {}, setJsPrefix: function() {}, setSwfPrefix: function() {}, setCssPrefix: function() {}, setConfig: function() {}, getAssetPrefix: function() {}, getJsPrefix: function () {}, getSwfPrefix: function () {}, getCssPrefix: function () {} }, survey: { init: function(){ return false; } }, data: {}, init: function() {}, objects: function(str) { return false; }, locale: { set: function() {}, get: function() {} }, setAdKeyValue: function() {}, utils: { addEvent: function() {}, addHtmlTagClass: function() {}, log: function () {} }, addLoadEvent: function() {} }; /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (typeof orb !== 'undefined' && typeof orb.fig === 'function') { if (orb.fig('ad') && orb.fig('uk') == 0) { bbcdotcom.data = { ads: (orb.fig('ad') ? 1 : 0), stats: (orb.fig('uk') == 0 ? 1 : 0), statsProvider: orb.fig('ap') }; } } else { document.write('<script type="text/javascript" src="'+('https:' == document.location.protocol ? 'https://ssl.bbc.com' : 'http://tps.bbc.com')+'/wwscripts/data">\x3C/script>'); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (typeof orb === 'undefined' || typeof orb.fig !== 'function') { bbcdotcom.data = { ads: bbcdotcom.data.a, stats: bbcdotcom.data.b, statsProvider: bbcdotcom.data.c }; } if (bbcdotcom.data.ads == 1) { document.write('<script type="text/javascript" src="'+('https:' == document.location.protocol ? 'https://ssl.bbc.co.uk' : 'http://www.bbc.co.uk')+'/wwscripts/flag">\x3C/script>'); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (window.bbcdotcom && (typeof bbcdotcom.flag == 'undefined' || (typeof bbcdotcom.data.ads !== 'undefined' && bbcdotcom.flag.a != 1))) { bbcdotcom.data.ads = 0; } if (/[?|&]ads/.test(window.location.href) || /(^|; )ads=on; /.test(document.cookie) || /; ads=on(; |$)/.test(document.cookie)) { bbcdotcom.data.ads = 1; bbcdotcom.data.stats = 1; } if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcom.assetPrefix = "https://static.bbc.co.uk/bbcdotcom/1.40.0/"; if (/(sandbox|int)(.dev)*.bbc.co*/.test(window.location.href) || /[?|&]ads-debug/.test(window.location.href) || document.cookie.indexOf('ads-debug=') !== -1) { document.write('<link rel="stylesheet" type="text/css" href="https://static.bbc.co.uk/bbcdotcom/1.40.0/style/dist/bbcdotcom.dev.css" />'); } else { document.write('<link rel="stylesheet" type="text/css" href="https://static.bbc.co.uk/bbcdotcom/1.40.0/style/dist/bbcdotcom.css" />'); } (function() { var useSSL = 'https:' == document.location.protocol; var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; document.write('<scr' + 'ipt src="' + src + '">\x3C/script>'); })(); if (/(sandbox|int)(.dev)*.bbc.co*/.test(window.location.href) || /[?|&]ads-debug/.test(window.location.href) || document.cookie.indexOf('ads-debug=') !== -1) { document.write('<script type="text/javascript" src="https://static.bbc.co.uk/bbcdotcom/1.40.0/script/dist/bbcdotcom.dev.js">\x3C/script>'); } else { document.write('<script type="text/javascript" src="https://static.bbc.co.uk/bbcdotcom/1.40.0/script/dist/bbcdotcom.js">\x3C/script>'); } } })(); /*]]>*/</script><script type="text/javascript">if (window.bbcdotcom && bbcdotcom.data.stats == 1) { document.write('<link rel="dns-prefetch" href="//secure-us.imrworldwide.com/">'); document.write('<link rel="dns-prefetch" href="//me-cdn.effectivemeasure.net/">'); document.write('<link rel="dns-prefetch" href="//ssc.api.bbc.com/">'); } if (window.bbcdotcom && bbcdotcom.data.ads == 1) { document.write('<link rel="dns-prefetch" href="//www.googletagservices.com/">'); }</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcomConfig = {"adFormat":"standard","adKeyword":"","adMode":"smart","adsEnabled":true,"appAnalyticsSections":"","asyncEnabled":false,"disableInitialLoad":false,"advertInfoPageUrl":"http:\/\/www.bbc.com\/privacy\/cookies\/international\/","advertisementText":"Advertisement","analyticsEnabled":true,"kruxEnabled":true,"newsTopStoriesMorph":true,"appName":"","assetPrefix":"https:\/\/static.bbc.co.uk\/bbcdotcom\/1.40.0\/","customAdParams":[],"customStatsParams":[],"headline":"","id":"","inAssociationWithText":"in association with","keywords":"","language":"","orbTransitional":false,"outbrainEnabled":true,"palEnv":"live","productName":"","sections":[],"comScoreEnabled":true,"comscoreSite":"bbc","comscoreID":"19293874","comscorePageName":"","slots":"","sponsoredByText":"is sponsored by","adsByGoogleText":"Ads by Google","summary":"","type":"","features":{"testfeature":{"name":"testfeature","envs":["sandbox","int","test"],"on":true,"options":{},"override":null},"lxadverts":{"name":"lxadverts","envs":[],"on":true,"options":{},"override":null}},"staticBase":"\/bbcdotcom","staticHost":"https:\/\/static.bbc.co.uk","staticVersion":"1.40.0","staticPrefix":"https:\/\/static.bbc.co.uk\/bbcdotcom\/1.40.0","dataHttp":"tps.bbc.com","dataHttps":"ssl.bbc.com","flagHttp":"www.bbc.co.uk","flagHttps":"ssl.bbc.co.uk","analyticsHttp":"sa.bbc.com","analyticsHttps":"ssa.bbc.com"}; bbcdotcom.config.init(bbcdotcomConfig, bbcdotcom.data, window.location, window.document); bbcdotcom.config.setAssetPrefix("https://static.bbc.co.uk/bbcdotcom/1.40.0/"); bbcdotcom.config.setVersion("1.40.0"); document.write('<!--[if IE 7]><script type="text/javascript">bbcdotcom.config.setIE7(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 8]><script type="text/javascript">bbcdotcom.config.setIE8(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 9]><script type="text/javascript">bbcdotcom.config.setIE9(true);\x3C/script><![endif]-->'); if (/[?|&]ex-dp/.test(window.location.href) || document.cookie.indexOf('ex-dp=') !== -1) { bbcdotcom.utils.addHtmlTagClass('bbcdotcom-ex-dp'); } } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/
+        require(['istats-1', 'orb/cookies', 'orb/fig'], function (istats, bbccookies, orbFig) {
+            istats.addLabels({ 'bbc_mc': bbccookies.analyticsPolicyString() });
+
+            var domesticBlqV = istats._getLabels().blq_v;
+            var worldwideBlqV = istats._getLabels().blq_v + '-ww';
+
+            function setBlqVLabel(fig) {
+                if (fig.geo.isUK()) {
+                    istats.addLabels({'blq_v': domesticBlqV});
+                } else {
+                    istats.addLabels({'blq_v': worldwideBlqV});
+                }
+            }
+
+            // Guess with synchronous API first (might be cached and the async version might be too slow)
+            setBlqVLabel(orbFig);
+            orbFig.load(function (fig) {
+                setBlqVLabel(fig);
+            });
+        });
+    /*]]>*/</script>  <meta name="apple-itunes-app" content="app-id=416580485, app-argument=bbciplayer://www.bbc.co.uk/iplayer?bbc_referrer=iplayer-responsive-web" />  <!--[if (gt IE 8) | (IEMobile)]><!--> <link id="stylesheet-default" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/style/stylesheets/homepage-v1/default.css" rel="stylesheet" type="text/css" /> <!--<![endif]--> <!--[if lte IE 8]> <link id="stylesheet-iedefault" href="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/style/stylesheets/homepage-v1/default-ie.css" rel="stylesheet" type="text/css" /> <![endif]-->   <script type="text/javascript"> require.config({  baseUrl: '//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/script/built',  "paths": { 'jquery-1.9': '//static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1', 'relay-1':'//static.bbci.co.uk/frameworks/relay/0.2.6/sharedmodules/relay-1', uasclient: '//static.bbci.co.uk/uasclient/0.1.40/modules/uasclient', 'swfobject-2': '//static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2', lodash: 'lib/lodash', resourceTimingCompression: 'lib/resourceTimingCompression', text: 'lib/require/text', json: 'lib/require/json', i18n: 'lib/require/i18n', locales: 'lib/require/locales', jRespond: 'utils/jRespond', mustache: 'lib/mustache', redux: 'lib/redux.min', handlebars: 'lib/handlebars.amd.min', 'handlebars.runtime': 'lib/handlebars.amd.min', pal: '/iplayer/js', 'bump-3': '//emp.bbci.co.uk/emp/bump-3/bump-3', 'demi-1': '//static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1', svg4everybody: 'lib/svg4everybody.min', atomicLibrary: 'lib/atomic-component-library' }, "waitSeconds": 30 }); </script> <script type="text/javascript"> if (navigator.userAgent.indexOf('Windows Phone 8') !== -1) { var msViewportStyle = document.createElement("style"); msViewportStyle.appendChild( document.createTextNode( "@-ms-viewport{width:auto!important}" ) ); document.getElementsByTagName("head")[0].appendChild(msViewportStyle); } </script> <script type="text/javascript"> require(['istats-1', 'svg4everybody'], function (istats, svg4everybody) { svg4everybody(); istats.setSite('tvandiplayer');  }); </script> <noscript> <style type="text/css"> .r-image .img { display:none; } </style> </noscript> <!--[if IE 7]>  <script src="http://static.bbci.co.uk/tviplayer/1.139.0/script/built/lib/json2.js"></script>  <![endif]-->  <script src="//iplayer-web.files.bbci.co.uk/tviplayer-static-assets/10.40.0-1/script/built/lib/picturefill.min.js"></script>   <script type="text/javascript"> if (window.bbccookies && window.bbccookies.cookiesEnabled() && window.bbccookies.readPolicy('performance')) { document.write('<script type="text/javascript" src="//service.maxymiser.net/cdn/mbbccoUK/js/mmcore.js"></' + 'script>'); } </script>  </head> <body class="homepage iplayer no-touch" data-page-type="home"> <noscript><p style="position: absolute; top: -999em"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=iplayer.tv.page&amp;ml_name&#x3D;webmodule&amp;ml_version&#x3D;62&amp;blq_e&#x3D;orbit&amp;blq_r&#x3D;orbit&amp;blq_s&#x3D;orbit&amp;blq_v&#x3D;default&amp;language&#x3D;en&pal_route=iplayerHome&pal_webapp=tviplayer&prod_name=iplayer&iplayer_type=main&page_layout=stream&object_count_stream=21&app_name=iplayer&app_type=responsive&app_version=1.139.0&page_type=home&language=en-GB&location_nation=eng&location_region=london&amp;blq_js_enabled=0" height="1" width="1" alt=""></p></noscript><!-- BBCDOTCOM bodyFirst --><div id="bbccom_interstitial_ad" class="bbccom_display_none"></div><div id="bbccom_interstitial" class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { googletag.cmd.push(function() { googletag.display('bbccom_interstitial'); }); } }()); /*]]>*/</script></div><div id="bbccom_wallpaper_ad" class="bbccom_display_none"></div><div id="bbccom_wallpaper" class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function() { googletag.display('bbccom_wallpaper'); }); } else { googletag.display("wallpaper"); } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); } }()); /*]]>*/</script></div><script type="text/javascript">/*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { document.write(unescape('%3Cscript id="gnlAdsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript id="gnlAnalyticsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } }()); /*]]>*/</script><div id="blq-global"><div id="blq-pre-mast"></div></div><div id="cookiePrompt"></div><!--[if (gt IE 8) | (IEMobile)]><!--><header id="orb-banner" role="banner" aria-label="BBC"><!--<![endif]--><!--[if (lt IE 9) & (!IEMobile)]>
+        <![if (IE 8)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie8" aria-label="BBC">
+        <![endif]>
+
+        <![if (IE 7)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie7" aria-label="BBC">
+        <![endif]>
+
+        <![if (IE 6)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie6" aria-label="BBC">
+        <![endif]>
+    <![endif]--><div id="orb-header" class="orb-nav-pri orb-nav-pri-white orb-nav-empty"><div class="orb-nav-pri-container b-r b-g-p"><div class="orb-nav-section orb-nav-blocks"><a href="http://www.bbc.co.uk">Homepage</a></div><section><div class="orb-skip-links"><h2>Accessibility links</h2><ul><li><a href="#main">Skip to content</a></li><li><a id="orb-accessibility-help" href="/accessibility/">Accessibility Help</a></li></ul></div></section><div id="mybbc-wrapper" class="orb-nav-section orb-nav-id orb-nav-focus orb-nav-id-default"><div id="idcta-statusbar" class="orb-nav-section orb-nav-focus"><a id="idcta-link" href="https://www.bbc.com/account"><span id="idcta-username">BBC iD</span></a></div><script type="text/javascript">require(['idcta/statusbar'], function(statusbar) { new statusbar.Statusbar({"id":"idcta-statusbar","publiclyCacheable":true}); });</script><a id="notification-link" class="js-notification-link animated three" href="#"><span class="hidden-span">Notifications</span><div class="notification-link--triangle"></div><div class="notification-link--triangle"></div><span id="not-num"></span></a></div><nav role="navigation" aria-label="BBC" class="orb-nav"><div class="orb-nav-section orb-nav-links orb-nav-focus" id="orb-nav-links"><ul><li class="orb-nav-news"><a href="http://www.bbc.co.uk/news">News</a></li><li class="orb-nav-sport"><a href="http://www.bbc.co.uk/sport">Sport</a></li><li class="orb-nav-weather"><a href="http://www.bbc.co.uk/weather">Weather</a></li><li class="orb-nav-iplayer"><a href="http://www.bbc.co.uk/iplayer">iPlayer</a></li><li class="orb-nav-tv"><a href="http://www.bbc.co.uk/tv">TV</a></li><li class="orb-nav-radio"><a href="http://www.bbc.co.uk/radio">Radio</a></li><li class="orb-nav-cbbc"><a href="http://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="http://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="http://www.bbc.co.uk/food">Food</a></li><li class="orb-nav-iwonder"><a href="http://www.bbc.co.uk/iwonder">iWonder</a></li><li class="orb-nav-bitesize"><a href="http://www.bbc.co.uk/education">Bitesize</a></li><li class="orb-nav-travel"><a href="http://www.bbc.co.uk/travel">Travel</a></li><li class="orb-nav-music"><a href="http://www.bbc.co.uk/music">Music</a></li><li class="orb-nav-earth"><a href="http://www.bbc.com/earth">Earth</a></li><li class="orb-nav-arts"><a href="http://www.bbc.co.uk/arts">Arts</a></li><li class="orb-nav-digital"><a href="http://www.bbc.co.uk/makeitdigital">Make It Digital</a></li><li class="orb-nav-taster"><a href="http://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-local"><a href="http://www.bbc.co.uk/local">Local</a></li><li id="orb-nav-more" style="width: 88px" aria-controls="orb-panel-more"><a href="#orb-footer" data-alt="More" class="istats-notrack">Menu<span class="orb-icon orb-icon-arrow"></span></a></li></ul></div></nav><div class="orb-nav-section orb-nav-search"><a class="orb-search__button" href="http://search.bbc.co.uk/search?scope&#x3D;iplayer:tv" title="Search the BBC">Search</a><form class="b-f" id="orb-search-form" role="search" method="get" action="//search.bbc.co.uk/search" accept-charset="utf-8"><div><input type="hidden" name="scope" id="orb-search-scope" value="iplayer:tv"><label for="orb-search-q">Search the BBC</label><input id="orb-search-q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="q" placeholder="Search BBC iPlayer"><button id="orb-search-button" class="orb-search__button">Search the BBC</button><input type="hidden" name="suggid" id="orb-search-suggid"></div></form></div></div><div id="orb-panels"></div></div></header><!-- Styling hook for shared modules only -->
+<div id="orb-modules">
+   <!--[if lt IE 6]> <div id="tviplayer" class="ie "> <![endif]--> <!--[if IE 6]> <div id="tviplayer" class="ie ie6 "> <![endif]--> <!--[if IE 7]> <div id="tviplayer" class="ie ie7 "> <![endif]--> <!--[if IE 8]> <div id="tviplayer" class="ie ie8 "> <![endif]--> <!--[if IE 9]> <div id="tviplayer" class="ie ie9 "> <![endif]--> <!--[if gt IE 9]><!--> <div id="tviplayer" class=""> <!--<![endif]--> <script type="text/javascript"> (function () { var el = document.getElementById('tviplayer'); if (el.className.indexOf('tvip-js') === -1) { el.className += el.className ? ' tvip-js' : 'tvip-js'; } })(); </script>   <div class="ipNav ipNav--iplayer">
+  <ul class="ipNav__list list--parent">
+    <li class="ipNav__logo">
+      <a class="ipNav__logo__link" href="/iplayer">
+        <img role="img"
+            class="js-svg"
+            src="//static.bbci.co.uk/tviplayer/img/navigation/iplayer_pink.svg"
+            alt="BBC iPlayer" width="111" height="36"
+            data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/iplayer_pink.png"
+        />
+      </a>
+      <h2 class="tvip-hide">iPlayer navigation</h2>
+    </li>
+    <li class="ipNav__item item--channels" data-object-type="channels">
+      <button class="ipNav__link js-item-toggle">
+        <span class="tvip-hide">
+          Open channels list
+        </span>
+        Channels
+        <span class="arrow"><i aria-hidden="true" class="icon tviplayericon tviplayericon-point"></i></span>
+      </button>
+      <div class="ipNav__list list--child">
+  <div class="tvip-channels-container">
+    <div class="tvip-channels b-g-p">
+      <h2 class="tvip-hide">BBC Channels</h2>
+      <div class="tvip-channels-inner">
+        <div id="tvip-channels-pagination-left" class="tvip-channels-pagination">
+          <span><i aria-hidden="true" class="icon tviplayericon tviplayericon-previous"></i></span>
+        </div>
+        <div id="tvip-channels-pagination-right" class="tvip-channels-pagination">
+          <span><i aria-hidden="true" class="icon tviplayericon tviplayericon-next"></i></span>
+        </div>
+        <div class="tvip-channels-stream-edge tvip-channels-stream-edge-left"></div>
+        <div class="tvip-channels-stream-edge tvip-channels-stream-edge-right"></div>
+
+        <div id="tvip-channels-stream">
+          <div id="tvip-channels-stream-inner" role="navigation">
+            <ul class="tvip-channels-list tvip-clearfix">
+              <li data-id="bbcone" class="tvip-channel-bbcone">
+                <a href="/bbcone">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcone.svg" alt="BBC One" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcone.png"/>
+                </a>
+              </li>
+              <li data-id="bbctwo" class="tvip-channel-bbctwo">
+                <a href="/bbctwo">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbctwo.svg" alt="BBC Two" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbctwo.png"/>
+                </a>
+              </li>
+              <li data-id="bbcthree" class="tvip-channel-bbcthree">
+                <a href="/tv/bbcthree">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcthree.svg" alt="BBC Three" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcthree.png"/>
+                </a>
+              </li>
+              <li data-id="bbcfour" class="tvip-channel-bbcfour">
+                <a href="/bbcfour">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcfour.svg" alt="BBC Four" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcfour.png"/>
+                </a>
+              </li>
+              <li data-id="radio1" class="tvip-channel-radio1">
+                <a href="/tv/radio1">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/radio1.svg" alt="BBC Radio One" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/radio1.png"/>
+                </a>
+              </li>
+              <li data-id="cbbc" class="tvip-channel-cbbc">
+                <a href="/tv/cbbc">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/cbbc.svg" alt="CBBC" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/cbbc.png"/>
+                </a>
+              </li>
+              <li data-id="cbeebies" class="tvip-channel-cbeebies">
+                <a href="/tv/cbeebies">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/cbeebies.svg" alt="CBeebies" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/cbeebies.png"/>
+                </a>
+              </li>
+              <li data-id="bbcnews" class="tvip-channel-bbcnews">
+                <a href="/tv/bbcnews">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcnews.svg" alt="BBC News" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcnews.png"/>
+                </a>
+              </li>
+              <li data-id="bbcparliament" class="tvip-channel-bbcparliament">
+                <a href="/tv/bbcparliament">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcparliament.svg" alt="BBC Parliament" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcparliament.png"/>
+                </a>
+              </li>
+              <li data-id="bbcalba" class="tvip-channel-bbcalba">
+                <a href="/tv/bbcalba">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/bbcalba.svg" alt="BBC Alba" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/bbcalba.png"/>
+                </a>
+              </li>
+              <li data-id="s4c" class="tvip-channel-s4c">
+                <a href="/tv/s4c">
+                  <img role="img" class="js-svg" src="//static.bbci.co.uk/tviplayer/img/navigation/s4c.svg" alt="S4C" width="64" height="64" data-fallback="//static.bbci.co.uk/tviplayer/img/navigation/s4c.png"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </li>
+    <li class="ipNav__item item--menu item--g3--hidden" data-object-type="nav-dropdown">
+      <button class="ipNav__link js-menu-toggle">
+        Menu
+      </button>
+    </li>
+    <li class="ipNav__item item--categories item--g1--stacked js-stacked-items" data-object-type="categories">
+      <button class="ipNav__link js-item-toggle">
+        <span class="tvip-hide">Open categories list</span>
+        Categories
+        <span class="arrow"><i aria-hidden="true" class="icon tviplayericon tviplayericon-point"></i></span>
+        <span class="closed"><i aria-hidden="true" class="icon tviplayericon tviplayericon-down"></i></span>
+        <span class="open"><i aria-hidden="true" class="icon tviplayericon tviplayericon-up"></i></span>
+      </button>
+      <div class="ipNav__list list--child">
+  <div class="tvip-cat-container">
+    <div class="b-g-p">
+      <h2 class="tvip-hide">Categories</h2>
+      <div id="category-navigation" class="categories-container">
+        <div class="panel-section genre">
+          <div class="genre-left">
+              <ul class="tvip-cats tvip-nav-clearfix">
+                  
+                  <li><a href="/iplayer/categories/arts" class="stat">Arts</a></li>
+                  
+                  <li><a href="/iplayer/categories/cbbc" class="stat">CBBC</a></li>
+                  
+                  <li><a href="/iplayer/categories/cbeebies" class="stat">CBeebies</a></li>
+                  
+                  <li><a href="/iplayer/categories/comedy" class="stat">Comedy</a></li>
+              </ul>
+              <ul class="tvip-cats tvip-nav-clearfix">
+                  
+                  <li><a href="/iplayer/categories/documentaries" class="stat">Documentaries</a></li>
+                  
+                  <li><a href="/iplayer/categories/drama-and-soaps" class="stat">Drama &amp; Soaps</a></li>
+                  
+                  <li><a href="/iplayer/categories/entertainment" class="stat">Entertainment</a></li>
+                  
+                  <li><a href="/iplayer/categories/films" class="stat">Films</a></li>
+              </ul>
+          </div>
+          <div class="genre-right">
+              <ul class="tvip-cats tvip-nav-clearfix">
+                  
+                  <li><a href="/iplayer/categories/food" class="stat">Food</a></li>
+                  
+                  <li><a href="/iplayer/categories/history" class="stat">History</a></li>
+                  
+                  <li><a href="/iplayer/categories/lifestyle" class="stat">Lifestyle</a></li>
+                  
+                  <li><a href="/iplayer/categories/music" class="stat">Music</a></li>
+              </ul>
+              <ul class="tvip-cats tvip-nav-clearfix">
+                  
+                  <li><a href="/iplayer/categories/news" class="stat">News</a></li>
+                  
+                  <li><a href="/iplayer/categories/science-and-nature" class="stat">Science &amp; Nature</a></li>
+                  
+                  <li><a href="/iplayer/categories/sport" class="stat">Sport</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="panel-section accessibility">
+          <h3 class="tvip-hide">Accessible alternative formats</h3>
+            <ul class="tvip-cats tvip-nav-clearfix">
+                
+                <li><a href="/iplayer/categories/audio-described" class="stat">Audio Described</a></li>
+            </ul>
+            <ul class="tvip-cats tvip-nav-clearfix">
+                
+                <li><a href="/iplayer/categories/signed" class="stat">Signed</a></li>
+            </ul>
+        </div>
+        <div class="panel-section regional">
+          <h3 class="tvip-hide">Regions</h3>
+            <ul class="tvip-cats tvip-nav-clearfix">
+                
+                <li><a href="/iplayer/categories/northern-ireland" class="stat">Northern Ireland</a></li>
+                
+                <li><a href="/iplayer/categories/scotland" class="stat">Scotland</a></li>
+            </ul>
+            <ul class="tvip-cats tvip-nav-clearfix">
+                
+                <li><a href="/iplayer/categories/wales" class="stat">Wales</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </li>
+    <li class="ipNav__item item--atoz item--g1--stacked js-stacked-items">
+      <a href="/iplayer/a-z" class="ipNav__link">A-Z</a>
+    </li>
+    <li class="ipNav__item item--schedule item--g1--stacked item--g3--hidden js-stacked-items">
+      <a href="/iplayer/schedules/bbcone" class="ipNav__link">TV Guide</a>
+    </li>
+    <li class="ipNav__item item--tvg item--g1--stacked js-stacked-items" >
+      <a href="/iplayer/guide" class="ipNav__link">TV Guide</a>
+    </li>
+    <li class="ipNav__item item--myprogrammes item--g1--stacked item--g3--shown ">
+    <a href="/iplayer/watching" class="ipNav__link">My Programmes</a>
+</li>
+<li class="ipNav__item item--myprogrammes item--myprogrammes--stacked item--g3--hidden  item--g1--stacked js-stacked-items" data-object-type="my-programmes">
+    <button class="ipNav__link js-item-toggle">
+        <span class="tvip-hide">Open my programmes list</span>
+        My Programmes
+        <span class="arrow"><i aria-hidden="true" class="icon tviplayericon tviplayericon-point"></i></span>
+        <span class="closed"><i aria-hidden="true" class="icon tviplayericon tviplayericon-down"></i></span>
+        <span class="open"><i aria-hidden="true" class="icon tviplayericon tviplayericon-up"></i></span>
+    </button>
+    <div class="ipNav__list list--child">
+        <ul class="myprogrammes-dropdown">
+            <li class="myprogrammes-dropdown__item item--watching">
+                <a class="myprogrammes-dropdown__link " href="/iplayer/watching">
+                    Watching
+                </a>
+            </li>
+            <li class="myprogrammes-dropdown__item item--added">
+                <a class="myprogrammes-dropdown__link " href="/iplayer/added">
+                    Added
+                </a>
+            </li>
+            <li class="myprogrammes-dropdown__item item--purchases">
+                <a class="myprogrammes-dropdown__link " href="/iplayer/purchases">
+                    Purchases
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+  </ul>
+</div>
+  <div id="blq-content" data-site-type="default">  <div id="main" class="main homepage tvip-clearfix" role="main">    <h1 class="tvip-hide">BBC iPlayer Homepage</h1> <div class="find-tools-container">     <div class="find-tools tvip-clearfix"> <div class="find-tool search"> <div class="find-tool-inner"> <div class="search-compact" role="search"> <div class="search-trigger"> <a href="#"> <h2 class="tvip-hide"> Open iPlayer search </h2> <span class="tvip-hide"> Search results appear automatically under the next heading. Use the arrow keys to navigate these and Enter to select them. </span> <span class="icon search-icon"></span> </a> <form id="find-tool-search" action="/iplayer/search" class="search-form tvip-clearfix b-r"> <input type="text" name="q" class="search-input placeholder-fix" placeholder="Find a programme" tabindex="-1" autocomplete="off" /> <input type="submit" value="Find" class="search-submit" /> </form> </div> </div> <div class="search-expanded">     <div class="programme-finder b-f b-r tvip-clearfix" id="programme-finder"> <form class="programme-finder-form" action="/iplayer/search" method="get" > <div class="search-wrapper"> <label for="programme-finder-query" class="tvip-hide"> Find a programme on BBC iPlayer </label> <input maxlength="50" type="text" name="q" value="" placeholder="Find a programme on BBC iPlayer" class="search-input placeholder-fix" autocomplete="off" id="programme-finder-query" /> <span class="search-button-container"> <button type="submit" class="search-button" id="programme-finder-submit"> <span class="search-icon"></span> <span class="search-button-text">Find</span> </button> </span> </div> </form> <div class="programme-finder-results"> <div class="popular-searches-container">  <div class="popular-searches" id="recent-searches"> <h3 class="header"> Your recent searches </h3> <ul> <script type="text/template" id="recent-searches-template" class="js-template"> {{#terms}} <li class="search-term {{class}}"><a href="/iplayer/search?q={{escapedTerm}}" class="stat" data-search-type="recent">{{term}}</a></li> {{/terms}} </script> </ul> </div> <ul class="programme-finder-action-buttons tvip-hide"> <li id="recent-searches-clear"> <a href="#">Clear recent searches</a> </li> </ul> </div> <div id="autosuggest-container" class="suggestions-container"> <div id="popular-programmes-container" class="suggestions-container-section with-border"> <script type="text/template" id="popular-programmes-template" class="js-template"> <div id="popular-programmes" class="tvip-clearfix"> <h3 class="heading">Popular</h3> <div class="right"> <ul>{{{list-items}}}</ul> </div> </div> </script> <script type="text/template" id="popular-programmes-suggestion-template" class="js-template"> <li class="suggestion"><a href="/iplayer{{{url}}}" class="stat" data-search-title="{{raw_title}}" data-search-type="popular">{{{title}}}</a></li> </script> </div> <div id="latest-programmes-container" class="suggestions-container-section with-border"> <script type="text/template" id="latest-programmes-template" class="js-template"> <div id="latest-programmes" class="tvip-clearfix"> <h3 class="heading">Latest</h3> <div class="right"> <ul>{{{list-items}}}</ul> </div> </div> </script> <script type="text/template" id="latest-programmes-suggestion-template" class="js-template"> <li class="suggestion"> <a href="/iplayer/brand/{{tleo_pid}}" class="stat" data-search-title="{{raw_title}}" data-search-type="latest"> <i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i> {{{title}}} </a> </li> </script> <script type="text/template" id="latest-episodes-suggestion-template" class="js-template" data-url-template="/iplayer/episode/{{pid}}/{{version}}/{{slug}}"> <li class="suggestion"> <a href="{{episode_url}}" class="stat" data-search-title="{{raw_title}}" data-search-type="latest"> <i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i> {{#subtitle}} {{{title}}} - {{{subtitle}}} {{/subtitle}} {{^subtitle}} {{{title}}} {{/subtitle}} </a> </li> </script> </div> <div id="categories-container" class="suggestions-container-section with-border"> <script type="text/template" id="categories-template" class="js-template"> <div id="categories" class="tvip-clearfix"> <h3 class="heading">Categories</h3> <div class="right"> <ul>{{{list-items}}}</ul> </div> </div> </script> <script type="text/template" id="categories-suggestion-template" class="js-template"> <li class="suggestion"><a href="/iplayer/categories/{{id}}" class="stat" data-search-type="category">{{{title}}}</a></li> </script> </div> <div id="a-z-container" class="suggestions-container-section"> <script type="text/template" id="a-z-suggestion-template" class="js-template"> <div id="a-z-suggestion"> <h3 class="heading">A-Z</h3> <div class="right"> <p class="suggestion"><a href="/iplayer/a-z/{{letter-url}}" class="stat" data-search-type="atoz">All programmes starting with '<strong>{{letter}}</strong>'</a></p> </div> </div> </script> </div> </div> </div> </div>  </div> </div> </div> <div class="search-popup"> <div class="popup-content"></div> <a class="close" tabindex="-1" href="#"><span class="tvip-hide">Close iPlayer search</span> <i aria-hidden="true" class="icon tviplayericon tviplayericon-no"></i> </a> </div> <div class="find-tool a-z"> <div class="find-tool-inner">     <a class="a-z-link" id="a-z-link" href="/iplayer/a-z"> <span class="icon"></span> <h2><span class="tvip-hide">A-Z </span>Programme List</h2> </a>  </div> </div> <div class="a-z-popup"> <div class="popup-header"> <h3> A-Z Programme List </h3> </div> <div class="popup-content"> <div role="navigation"> <h3 class="tvip-hide">A-Z</h3>     <ol class="letter-list tvip-clearfix" id="atoz-switcher">  <li class="a">  <a class="letter stat" href="/iplayer/a-z/a">a</a>  </li>  <li class="b">  <a class="letter stat" href="/iplayer/a-z/b">b</a>  </li>  <li class="c">  <a class="letter stat" href="/iplayer/a-z/c">c</a>  </li>  <li class="d">  <a class="letter stat" href="/iplayer/a-z/d">d</a>  </li>  <li class="e">  <a class="letter stat" href="/iplayer/a-z/e">e</a>  </li>  <li class="f">  <a class="letter stat" href="/iplayer/a-z/f">f</a>  </li>  <li class="g">  <a class="letter stat" href="/iplayer/a-z/g">g</a>  </li>  <li class="h">  <a class="letter stat" href="/iplayer/a-z/h">h</a>  </li>  <li class="i">  <a class="letter stat" href="/iplayer/a-z/i">i</a>  </li>  <li class="j">  <a class="letter stat" href="/iplayer/a-z/j">j</a>  </li>  <li class="k">  <a class="letter stat" href="/iplayer/a-z/k">k</a>  </li>  <li class="l">  <a class="letter stat" href="/iplayer/a-z/l">l</a>  </li>  <li class="m">  <a class="letter stat" href="/iplayer/a-z/m">m</a>  </li>  <li class="n">  <a class="letter stat" href="/iplayer/a-z/n">n</a>  </li>  <li class="o">  <a class="letter stat" href="/iplayer/a-z/o">o</a>  </li>  <li class="p">  <a class="letter stat" href="/iplayer/a-z/p">p</a>  </li>  <li class="q">  <a class="letter stat" href="/iplayer/a-z/q">q</a>  </li>  <li class="r">  <a class="letter stat" href="/iplayer/a-z/r">r</a>  </li>  <li class="s">  <a class="letter stat" href="/iplayer/a-z/s">s</a>  </li>  <li class="t">  <a class="letter stat" href="/iplayer/a-z/t">t</a>  </li>  <li class="u">  <a class="letter stat" href="/iplayer/a-z/u">u</a>  </li>  <li class="v">  <a class="letter stat" href="/iplayer/a-z/v">v</a>  </li>  <li class="w">  <a class="letter stat" href="/iplayer/a-z/w">w</a>  </li>  <li class="x">  <a class="letter stat" href="/iplayer/a-z/x">x</a>  </li>  <li class="y">  <a class="letter stat" href="/iplayer/a-z/y">y</a>  </li>  <li class="z">  <a class="letter stat" href="/iplayer/a-z/z">z</a>  </li>  <li class="numerals">  <a class="letter stat" href="/iplayer/a-z/0-9">0-9</a>  </li> </ol>  </div> </div> <a class="close" tabindex="-1" href="#"><span class="tvip-hide">Close iPlayer A-Z</span> <i aria-hidden="true" class="icon tviplayericon tviplayericon-no"></i> </a> </div>  <div class="recently-watched-popup recently-watched-panel"> <div class="popup-content"></div> <a class="close" tabindex="-1" href="#"><span class="tvip-hide">Close iPlayer search</span> <i aria-hidden="true" class="icon tviplayericon tviplayericon-no"></i> </a> </div> </div>  </div>   <div class="js-msi-idcta hide"> <p class="id4-cta" id="id4-cta-587b7e03a477c"><span class="id4-cta-size-medium id5-cta id4-cta-color-blue id4-cta-medium-blue"><a href="https://www.bbc.co.uk/session?ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fiplayer" class="id4-cta-signin id4-cta-button">Sign in</a><span class="id4-cta-with"> to the BBC,</span> or <a href="https://www.bbc.co.uk/session?action=register&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fiplayer" class="id4-cta-register">Register</a> <script type="text/javascript"> if (require.s.contexts._.config.paths['idcta']) { require(['idcta/idcta-1'], function(idcta) { if (idcta && typeof idcta.addUserOrigin === "function") { idcta.addUserOrigin("id4-cta-587b7e03a477c"); } }); } </script> </span></p> <script type="text/javascript"> require(['idcta/idcta-1'], function(idcta) { new idcta.Cta({"id":"id4-cta-587b7e03a477c","states":{}}); }); </script> </div>  <div class="b-g-p"> <h2 class="tvip-hide">Highlights</h2> <div class="iplayer-stream grid grid--with-gutters" data-object-count="21"> <ol class="grid__row"> <li class="stream-split grid ">
+        <div class="grid__item">
+            <h2 class="stream-title typo typo--heron tvip-hide">iPlayer picks</h2>
+        </div>
+    <div class="grid__item">
+        <ol class="grid__row">
+            <li class="editorial-row grid__item">
+  <div class="editorial-row__container">
+    <ol class="grid__row">
+        <li class="grid__item one-whole g4--one-third">
+            <a
+href="/iplayer/episode/b08bkqg8/taboo-28-james-delaney-sets-about-reclaiming-his-legacy"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b08bkqg8"
+data-object-position="1"
+data-object-type="episode-featured"
+data-object-override="sub"
+
+data-object-title="Taboo"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Taboo</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2/8 James Delaney sets about reclaiming his legacy</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/352x198/p04p07s8.jpg 352w,https://ichef.bbci.co.uk/images/ic/480x270/p04p07s8.jpg 480w" sizes="315px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/352x198/p04p07s8.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04p07s8.jpg 640w,https://ichef.bbci.co.uk/images/ic/976x549/p04p07s8.jpg 976w" sizes="calc(100vw - 32px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/352x198/p04p07s8.jpg 352w,https://ichef.bbci.co.uk/images/ic/480x270/p04p07s8.jpg 480w,https://ichef.bbci.co.uk/images/ic/640x360/p04p07s8.jpg 640w" sizes="calc(100vw - 16px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon overlay--text-pull-down">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">As James Delaney assembles his crew, an unexpected arrival threatens to disrupt his plans.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>55 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+        </li>
+        <li class="grid__item one-half g4--one-third">
+            <a
+href="/iplayer/episode/b08bbnm8/let-it-shine-a-second-group-of-hopefuls-perform-to-a-live-studio-audience"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b08bbnm8"
+data-object-position="2"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Let It Shine"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Entertainment
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Let It Shine</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">A second group of hopefuls perform to a live studio audience</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/352x198/p04p046h.jpg 352w,https://ichef.bbci.co.uk/images/ic/480x270/p04p046h.jpg 480w" sizes="315px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04p046h.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04p046h.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04p046h.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04p046h.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04p046h.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon overlay--text-pull-down">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Their fates lie in the hands of Gary Barlow, Dannii Minogue, Martin Kemp and Amber Riley.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>85 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+        </li>
+        <li class="grid__item one-half g4--one-third">
+            <a
+href="/iplayer/episode/b088ppll/sherlock-23-the-lying-detective-the-most-chilling-of-enemies"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088ppll"
+data-object-position="3"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Sherlock"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Crime Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Sherlock</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2/3 The Lying Detective. The most chilling of enemies</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/352x198/p04n6422.jpg 352w,https://ichef.bbci.co.uk/images/ic/480x270/p04n6422.jpg 480w" sizes="315px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6422.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6422.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6422.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6422.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6422.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon overlay--text-pull-down">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Sherlock faces the most evil man he has ever met - a man with a very dark secret.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>90 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 23 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+        </li>
+    </ol>
+  </div>
+</li>
+
+        </ol>
+    </div>
+</li>
+
+<li class="stream-split grid stream-split--pull-up">
+        <div class="grid__item">
+            <h2 class="stream-title typo typo--heron hide tvip-hide">Today&#39;s picks</h2>
+        </div>
+    <div class="grid__item">
+        <ol class="grid__row">
+                <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/p04n7x7y/uncle-37-dinner-i-hardly-knew-her-andy-has-a-whirlwind-romance"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="p04n7x7y"
+data-object-position="1-A"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Uncle"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Comedy
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Uncle</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">3/7 Dinner, I Hardly Knew Her. Andy has a whirlwind romance</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nbwgw.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nbwgw.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nbwgw.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nbwgw.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nbwgw.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nbwgw.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nbwgw.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Andy stumbles into a drug-fueled relationship, and Sam has some life-changing news.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>29 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Three</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 5 months</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088pkp7/the-graham-norton-show-hollywood-stars-ryan-gosling-and-emma-stone-grace-the-sofa"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088pkp7"
+data-object-position="1-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="The Graham Norton Show"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Entertainment
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The Graham Norton Show</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Hollywood stars Ryan Gosling and Emma Stone grace the sofa</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04pc8bd.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04pc8bd.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04pc8bd.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04pc8bd.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04pc8bd.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04pc8bd.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04pc8bd.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Also joining Graham are Ben Affleck and Sienna Miller. Plus music from Gregory Porter.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>44 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 28 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-whole">
+                <div
+class="grouped-items is-expanded"
+data-group-name="Most Popular"
+data-group-type="most-popular"
+data-group-id="popular">
+    <div class="grouped-items__group">
+
+        <div class="grouped-items__overlay">
+            <div class="grouped-items__desc">
+                <p class="grouped-items__label typo typo--robin"><strong>Today&#39;s</strong></p>
+                <h3 class="typo typo--goose">
+                    <a
+                    href="/iplayer/group/most-popular"
+                    class="grouped-items__title grouped-items__title--desc stat"
+                    data-object-position="2-AB-ALL"
+                    data-object-type="group-list-link"><strong>Most Popular</strong></a>
+                </h3>
+                <p class="grouped-items__item-count typo typo--canary">40 programmes</p>
+            </div>
+
+            <ul class="grouped-items__list">
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088rzbt/taboo-episode-1"
+    class="grouped-items__list-link has-masterbrand has-number stat"
+    data-object-position="2-AB-1"
+    data-object-type="episode-most-popular">
+        <span class="grouped-items__counter typo typo--goose"><strong>1</strong></span>
+        <p class="grouped-items__label typo typo--robin">
+            <strong>Drama</strong>
+        </p>
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Taboo</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Episode 1</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b08bkqg8/taboo-episode-2"
+    class="grouped-items__list-link has-masterbrand has-number stat"
+    data-object-position="2-AB-2"
+    data-object-type="episode-most-popular">
+        <span class="grouped-items__counter typo typo--goose"><strong>2</strong></span>
+        <p class="grouped-items__label typo typo--robin">
+            <strong>Drama</strong>
+        </p>
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Taboo</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Episode 2</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088nvtd/eastenders-13012017"
+    class="grouped-items__list-link has-masterbrand has-number stat"
+    data-object-position="2-AB-3"
+    data-object-type="episode-most-popular">
+        <span class="grouped-items__counter typo typo--goose"><strong>3</strong></span>
+        <p class="grouped-items__label typo typo--robin">
+            <strong>Drama</strong>
+        </p>
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>EastEnders</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">13/01/2017</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088ppll/sherlock-series-4-2-the-lying-detective"
+    class="grouped-items__list-link has-masterbrand has-number stat"
+    data-object-position="2-AB-4"
+    data-object-type="episode-most-popular">
+        <span class="grouped-items__counter typo typo--goose"><strong>4</strong></span>
+        <p class="grouped-items__label typo typo--robin">
+            <strong>Crime Drama</strong>
+        </p>
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Sherlock</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Series 4: 2. The Lying Detective</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088pm6z/not-going-out-series-8-1-romance"
+    class="grouped-items__list-link has-masterbrand has-number stat"
+    data-object-position="2-AB-5"
+    data-object-type="episode-most-popular">
+        <span class="grouped-items__counter typo typo--goose"><strong>5</strong></span>
+        <p class="grouped-items__label typo typo--robin">
+            <strong>Comedy</strong>
+        </p>
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Not Going Out</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Series 8: 1. Romance</p>
+    </a>
+</li>
+
+            </ul>
+
+            <a
+            href="/iplayer/group/most-popular"
+            class="grouped-items__cta btn stat"
+            data-object-position="2-AB-ALL"
+            data-object-type="group-list-link">View all 40 programmes</a>
+        </div>
+    </div>
+    <div class="grouped-items__stream">
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <div class="grouped-items__desc">
+    <p class="grouped-items__label typo typo--robin"><strong>Today&#39;s</strong></p>
+    <h3 class=" typo typo--goose">
+        <a href="/iplayer/group/most-popular" class="grouped-items__title grouped-items__title--desc stat"><strong>Most Popular</strong></a>
+    </h3>
+    <p class="grouped-items__subtitle typo typo--canary">40 programmes</p>
+    <a href="/iplayer/group/most-popular" class="grouped-items__btn btn btn--dark stat">View all</a>
+</div>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b088rzbt/taboo-episode-1"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088rzbt"
+data-object-position="2-AB-1"
+data-object-type="episode-backfill"
+
+
+data-object-title="Taboo"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Taboo</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Episode 1</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nkpbs.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nkpbs.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nkpbs.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nkpbs.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nkpbs.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nkpbs.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nkpbs.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">James Delaney returns to London to claim a mysterious legacy left to him by his father.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>55 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 22 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b08bkqg8/taboo-episode-2"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b08bkqg8"
+data-object-position="2-AB-2"
+data-object-type="episode-backfill"
+
+
+data-object-title="Taboo"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Taboo</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Episode 2</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04p07s8.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04p07s8.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04p07s8.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04p07s8.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04p07s8.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04p07s8.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04p07s8.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">As James Delaney assembles his crew, an unexpected arrival threatens to disrupt his plans.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>55 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b088nvtd/eastenders-13012017"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088nvtd"
+data-object-position="2-AB-3"
+data-object-type="episode-backfill"
+
+
+data-object-title="EastEnders"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>EastEnders</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">13/01/2017</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nc0wg.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nc0wg.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nc0wg.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nc0wg.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nc0wg.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nc0wg.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nc0wg.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Denise goes into labour, but will she go through with her plan? Bex is torn by her future.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>30 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 28 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b08bbkc7/masters-snooker-2017-first-round-osullivan-v-wenbo"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b08bbkc7"
+data-object-position="3-A"
+data-object-type="episode-featured-live"
+data-object-override="none"
+
+data-object-title="Masters Snooker"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Sport
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Masters Snooker</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2017: First Round: O'Sullivan v Wenbo</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label editorial-label--pulsate">Live</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="http://ichef.bbci.co.uk/images/ic/234x131/p04p1k4z.jpg 234w,http://ichef.bbci.co.uk/images/ic/352x198/p04p1k4z.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="http://ichef.bbci.co.uk/images/ic/234x131/p04p1k4z.jpg 234w,http://ichef.bbci.co.uk/images/ic/352x198/p04p1k4z.jpg 352w,http://ichef.bbci.co.uk/images/ic/640x360/p04p1k4z.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="http://ichef.bbci.co.uk/images/ic/176x99/p04p1k4z.jpg 176w,http://ichef.bbci.co.uk/images/ic/272x153/p04p1k4z.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Reigning Masters champion Ronnie O&#39;Sullivan kicks off proceedings against Liang Wenbo.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong class="overlay__label__highlight">BBC Two</strong>
+          </p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088pm6z/not-going-out-16-lee-mack-and-his-merry-band-of-companions-are-back"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088pm6z"
+data-object-position="3-B"
+data-object-type="episode-featured"
+data-object-override="sub"
+
+data-object-title="Not Going Out"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Comedy
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Not Going Out</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1/6 Lee Mack and his merry band of companions are back</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6wzk.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6wzk.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6wzk.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6wzk.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6wzk.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6wzk.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6wzk.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">After seven years of marriage, Lee and Lucy disagree over how to keep the romance alive.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>30 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 28 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088pqq5/death-in-paradise-28-florences-former-school-mate-is-found-dead"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088pqq5"
+data-object-position="4-A"
+data-object-type="episode-featured"
+data-object-override="sub"
+
+data-object-title="Death in Paradise"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Crime Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Death in Paradise</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2/8 Florence's former school mate is found dead</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6n8b.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6n8b.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6n8b.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6n8b.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6n8b.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6n8b.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6n8b.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">A friend of Florence is found dead at the foot of a cliff during a literary festival.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 27 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088kxbw/transgender-kids-who-knows-best-exploring-gender-dysphoria"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088kxbw"
+data-object-position="4-B"
+data-object-type="episode-featured"
+data-object-override="sub"
+
+data-object-title="Transgender Kids: Who Knows Best?"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Transgender Kids: Who Knows Best?</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Exploring gender dysphoria</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mysdj.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mysdj.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mysdj.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mysdj.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04mysdj.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04mysdj.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04mysdj.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">What is the best approach for parents to take when their child is facing gender dysphoria?</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>60 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Two</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 27 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+
+        </ol>
+    </div>
+</li>
+
+<li class="stream-split grid ">
+        <div class="grid__item">
+            <h2 class="stream-title typo typo--heron hide">More to watch</h2>
+        </div>
+    <div class="grid__item">
+        <ol class="grid__row">
+                <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088pm06/common-sense-16-fast-turnaround-comedy-series-voiced-by-ruth-jones"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088pm06"
+data-object-position="5-A"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Common Sense"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Comedy
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Common Sense</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1/6 Fast turnaround comedy series voiced by Ruth Jones</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6gwz.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6gwz.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6gwz.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6gwz.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6gwz.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6gwz.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6gwz.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">A cast of real Brits, chosen for their humorous take on life, discuss the week’s news.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>29 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Two</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 26 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088rp75/hospital-16-life-in-the-nhs-in-unprecedented-times"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088rp75"
+data-object-position="5-B"
+data-object-type="episode-featured"
+data-object-override="sub"
+
+data-object-title="Hospital"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Hospital</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1/6 Life in the NHS in unprecedented times</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6c1q.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6c1q.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6c1q.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6c1q.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6c1q.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6c1q.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6c1q.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Two patients await life-saving surgery at St Mary&#39;s in Paddington.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Two</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 26 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-whole">
+                <div
+class="grouped-items js-focus-expand"
+data-group-name="Drama Picks"
+data-group-type="editorial"
+data-group-id="p02q32xl">
+    <div class="grouped-items__group">
+        <div class="grouped-items__img">
+            <img src="https://ichef.bbci.co.uk/images/ic/272xn/p04p78fn.jpg" alt="">
+        </div>
+
+        <div class="grouped-items__overlay">
+            <div class="grouped-items__desc">
+                <p class="grouped-items__label typo typo--robin"><strong>Collection</strong></p>
+                <h3 class="typo typo--goose">
+                    <a
+                    href="/iplayer/group/p02q32xl"
+                    class="grouped-items__title grouped-items__title--desc stat"
+                    data-object-position="6-AB-ALL"
+                    data-object-type="group-list-link"><strong>Drama Picks</strong></a>
+                </h3>
+                <p class="grouped-items__item-count typo typo--canary">11 programmes</p>
+            </div>
+
+            <ul class="grouped-items__list grouped-items__list--bordered">
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b087tzkj/silent-witness-identity-1-part-one#group=p02q32xl"
+    class="grouped-items__list-link  stat"
+    data-object-position="6-AB-1"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Silent Witness</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Identity: 1. Part One</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088rzbt/taboo-episode-1#group=p02q32xl"
+    class="grouped-items__list-link  stat"
+    data-object-position="6-AB-2"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Taboo</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Episode 1</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b08819cn/death-in-paradise-series-6-episode-1#group=p02q32xl"
+    class="grouped-items__list-link  stat"
+    data-object-position="6-AB-3"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Death in Paradise</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Series 6: Episode 1</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/p0344rz7/the-last-kingdom-episode-1#group=p02q32xl"
+    class="grouped-items__list-link  stat"
+    data-object-position="6-AB-4"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>The Last Kingdom</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Episode 1</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b0881dgp/sherlock-series-4-1-the-six-thatchers#group=p02q32xl"
+    class="grouped-items__list-link  stat"
+    data-object-position="6-AB-5"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Sherlock</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">Series 4: 1. The Six Thatchers</p>
+    </a>
+</li>
+
+            </ul>
+
+            <a
+            href="/iplayer/group/p02q32xl"
+            class="grouped-items__cta btn stat"
+            data-object-position="6-AB-ALL"
+            data-object-type="group-list-link">View all 11 programmes</a>
+        </div>
+    </div>
+    <div class="grouped-items__stream">
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <div class="grouped-items__desc">
+    <p class="grouped-items__label typo typo--robin"><strong>Collection</strong></p>
+    <h3 class=" typo typo--goose">
+        <a href="/iplayer/group/p02q32xl" class="grouped-items__title grouped-items__title--desc stat"><strong>Drama Picks</strong></a>
+    </h3>
+    <p class="grouped-items__subtitle typo typo--canary">11 programmes</p>
+    <a href="/iplayer/group/p02q32xl" class="grouped-items__btn btn btn--dark stat">View all</a>
+</div>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b087tzkj/silent-witness-identity-1-part-one#group=p02q32xl"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b087tzkj"
+data-object-position="6-AB-1"
+data-object-type="episode-backfill"
+
+
+data-object-title="Silent Witness"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Silent Witness</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Identity: 1. Part One</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m6fz2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m6fz2.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m6fz2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m6fz2.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04m6fz2.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04m6fz2.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04m6fz2.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">When a people smuggler dies, Nikki encounters a desperate Syrian teenager.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 17 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b088rzbt/taboo-episode-1#group=p02q32xl"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088rzbt"
+data-object-position="6-AB-2"
+data-object-type="episode-backfill"
+
+
+data-object-title="Taboo"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Taboo</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Episode 1</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nkpbs.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nkpbs.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nkpbs.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nkpbs.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nkpbs.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nkpbs.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nkpbs.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">James Delaney returns to London to claim a mysterious legacy left to him by his father.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>55 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 22 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b08819cn/death-in-paradise-series-6-episode-1#group=p02q32xl"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b08819cn"
+data-object-position="6-AB-3"
+data-object-type="episode-backfill"
+
+
+data-object-title="Death in Paradise"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Death in Paradise</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Series 6: Episode 1</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m9vyr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m9vyr.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m9vyr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m9vyr.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04m9vyr.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04m9vyr.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04m9vyr.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">The death of a scientist on the side of a live volcano proves a difficult case to crack.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 20 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/p04lxc7x/the-national-lottery-draws-14012017"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="p04lxc7x"
+data-object-position="7-A"
+data-object-type="episode-featured"
+data-object-override="none"
+
+data-object-title="The National Lottery Draws"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Entertainment
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The National Lottery Draws</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">14/01/2017</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p020xqdj.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p020xqdj.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p020xqdj.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p020xqdj.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p020xqdj.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p020xqdj.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p020xqdj.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Find out if you are a winner, with the results of The National Lottery Draws.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>4 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088jznk/revolting-25-more-comedy-highjinks-and-cultural-satire"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088jznk"
+data-object-position="7-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Revolting"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Comedy
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Revolting</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2/5 More comedy highjinks and cultural satire</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04myp29.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04myp29.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04myp29.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04myp29.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04myp29.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04myp29.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04myp29.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">The boys hope to gain Philip Green a new yacht; plus Dale Maily asks - Charles or Wills?</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>30 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Two</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 25 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088dtzt/life-on-the-run-how-yulia-stepanova-exposed-the-russian-sport-doping-scandal"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088dtzt"
+data-object-position="8-A"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Life on the Run"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Life on the Run</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">How Yulia Stepanova exposed the Russian sport doping scandal</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n7xtq.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n7xtq.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n7xtq.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n7xtq.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n7xtq.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n7xtq.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n7xtq.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">How 800 metre runner Stepanova and her husband spoke out at great personal cost.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>30 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC News</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b0074gpk/the-ring-naomi-watts-stars-in-this-us-remake-of-the-cult-horror-flick"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b0074gpk"
+data-object-position="8-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="The Ring"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Film
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The Ring</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Naomi Watts stars in this US remake of the cult horror flick</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p01gs3p1.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p01gs3p1.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p01gs3p1.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p01gs3p1.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p01gs3p1.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p01gs3p1.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p01gs3p1.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">A journalist investigates a videotape which allegedly claims the life of its viewers.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>104 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 6 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-whole">
+                <div
+class="grouped-items js-focus-expand"
+data-group-name="Documentary Picks"
+data-group-type="editorial"
+data-group-id="p02q33dg">
+    <div class="grouped-items__group">
+        <div class="grouped-items__img">
+            <img src="https://ichef.bbci.co.uk/images/ic/272xn/p04p7x4x.jpg" alt="">
+        </div>
+
+        <div class="grouped-items__overlay">
+            <div class="grouped-items__desc">
+                <p class="grouped-items__label typo typo--robin"><strong>Collection</strong></p>
+                <h3 class="typo typo--goose">
+                    <a
+                    href="/iplayer/group/p02q33dg"
+                    class="grouped-items__title grouped-items__title--desc stat"
+                    data-object-position="9-AB-ALL"
+                    data-object-type="group-list-link"><strong>Documentary Picks</strong></a>
+                </h3>
+                <p class="grouped-items__item-count typo typo--canary">10 programmes</p>
+            </div>
+
+            <ul class="grouped-items__list grouped-items__list--bordered">
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088s4fy/spy-in-the-wild-1-love#group=p02q33dg"
+    class="grouped-items__list-link  stat"
+    data-object-position="9-AB-1"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Spy in the Wild</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">1. Love</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b088nl33/italys-invisible-cities-2-venice#group=p02q33dg"
+    class="grouped-items__list-link  stat"
+    data-object-position="9-AB-2"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Italy's Invisible Cities</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">2. Venice</p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/p04ly47m/tourettes-teenage-tics#group=p02q33dg"
+    class="grouped-items__list-link  stat"
+    data-object-position="9-AB-3"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Tourettes: Teenage Tics</strong>
+        </p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/b0888r7n/sound-of-musicals-with-neil-brand-1-oh-what-a-beautiful-mornin#group=p02q33dg"
+    class="grouped-items__list-link  stat"
+    data-object-position="9-AB-4"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Sound of Musicals with Neil Brand</strong>
+        </p>
+        <p class="grouped-items__subtitle typo typo--canary">1. Oh, What a Beautiful<span class="tvip-hide"> Mornin'</span><span aria-hidden="true">...</span></p>
+    </a>
+</li>
+
+                    <li class="grouped-items__list-item">
+    <a
+    href="/iplayer/episode/p04jyth3/drones-wtf#group=p02q33dg"
+    class="grouped-items__list-link  stat"
+    data-object-position="9-AB-5"
+    data-object-type="episode-group">
+        <p class="grouped-items__title grouped-items__title--item typo typo--skylark">
+            <strong>Drones: WTF?</strong>
+        </p>
+    </a>
+</li>
+
+            </ul>
+
+            <a
+            href="/iplayer/group/p02q33dg"
+            class="grouped-items__cta btn stat"
+            data-object-position="9-AB-ALL"
+            data-object-type="group-list-link">View all 10 programmes</a>
+        </div>
+    </div>
+    <div class="grouped-items__stream">
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <div class="grouped-items__desc">
+    <p class="grouped-items__label typo typo--robin"><strong>Collection</strong></p>
+    <h3 class=" typo typo--goose">
+        <a href="/iplayer/group/p02q33dg" class="grouped-items__title grouped-items__title--desc stat"><strong>Documentary Picks</strong></a>
+    </h3>
+    <p class="grouped-items__subtitle typo typo--canary">10 programmes</p>
+    <a href="/iplayer/group/p02q33dg" class="grouped-items__btn btn btn--dark stat">View all</a>
+</div>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b088s4fy/spy-in-the-wild-1-love#group=p02q33dg"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088s4fy"
+data-object-position="9-AB-1"
+data-object-type="episode-backfill"
+
+
+data-object-title="Spy in the Wild"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Spy in the Wild</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1. Love</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6kx2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6kx2.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04n6kx2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04n6kx2.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04n6kx2.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04n6kx2.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04n6kx2.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Spy Pup makes friends with a wild dog pack to investigate their maternal love.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 27 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+        <ul class="grid__row">
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/b088nl33/italys-invisible-cities-2-venice#group=p02q33dg"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088nl33"
+data-object-position="9-AB-2"
+data-object-type="episode-backfill"
+
+
+data-object-title="Italy&#39;s Invisible Cities"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Italy's Invisible Cities</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">2. Venice</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mzcs2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mzcs2.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mzcs2.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mzcs2.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04mzcs2.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04mzcs2.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04mzcs2.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Alexander Armstrong and Dr Michael Scott explore the watery wonderland of Venice.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>59 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 26 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="/iplayer/episode/p04ly47m/tourettes-teenage-tics#group=p02q33dg"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="p04ly47m"
+data-object-position="9-AB-3"
+data-object-type="episode-backfill"
+
+
+data-object-title="Tourettes: Teenage Tics"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Tourettes: Teenage Tics</strong></h3>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nlbxc.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nlbxc.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nlbxc.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nlbxc.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nlbxc.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nlbxc.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nlbxc.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Moving documentary in which twelve-year-old Rory explores his Tourettes.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>50 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Three</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 5 months</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b088n6zk/the-worst-witch-112-life-changes-forever-for-mildred-hubble"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b088n6zk"
+data-object-position="10-A"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="The Worst Witch"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    CBBC
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The Worst Witch</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1/12 Life changes forever for Mildred Hubble</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">New Series</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mvj5m.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mvj5m.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04mvj5m.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04mvj5m.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04mvj5m.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04mvj5m.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04mvj5m.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">It’s selection day at Cackle’s Academy, and the castle is filled with prospective pupils.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>53 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">CBBC</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 29 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/p04ly102/gang-girls-enter-a-secretive-world-of-exploitation-and-violence"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="p04ly102"
+data-object-position="10-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Gang Girls"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Gang Girls</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Enter a secretive world of exploitation and violence</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nxzcq.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nxzcq.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nxzcq.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nxzcq.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nxzcq.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nxzcq.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nxzcq.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Livvy Haydock meets women caught up in this world and asks if it&#39;s possible to leave.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>13 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Three</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 5 months</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b00srf2g/storyville-sync-or-swim-life-inside-swedens-only-male-synchronised-swimming-team"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b00srf2g"
+data-object-position="11-A"
+data-object-type="episode-featured"
+data-object-override="titl-sub-syn"
+
+data-object-title="Storyville: Sync or Swim"
+>
+    <div class="thumbnail-item__desc">
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Storyville: Sync or Swim</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Life inside Sweden's only male synchronised swimming team</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">Archive</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p01gqzn6.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p01gqzn6.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p01gqzn6.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p01gqzn6.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p01gqzn6.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p01gqzn6.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p01gqzn6.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">When Dylan Williams moved to Sweden he looked for &#39;something different&#39;. And he found it.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>60 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Four</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 11 months</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/p04ly47m/tourettes-teenage-tics-coping-with-more-than-the-usual-adolescent-challenges"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="p04ly47m"
+data-object-position="11-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="Tourettes: Teenage Tics"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Tourettes: Teenage Tics</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Coping with more than the usual adolescent challenges</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nlbxc.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nlbxc.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nlbxc.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nlbxc.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nlbxc.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nlbxc.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nlbxc.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">The stars of documentaries from 1988 and 2008 take 12-year-old Rory to ‘Tourette Camp’.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>50 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Three</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 5 months</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-quarter">
+        <ol class="grid__row ">
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b05r844j/reggie-yates-extreme-russia-1-far-right-proud"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b05r844j"
+data-object-position="12-A"
+data-object-type="episode-featured"
+data-object-override="none"
+
+data-object-title="Reggie Yates&#39; Extreme Russia"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Reggie Yates' Extreme Russia</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1. Far Right & Proud</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="typo typo--robin"><strong class="thumbnail-item__img__label editorial-label ">Box Set</strong></div>
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p02nb6vh.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p02nb6vh.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p02nb6vh.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p02nb6vh.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p02nb6vh.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p02nb6vh.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p02nb6vh.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">Reggie Yates travels to Moscow to meet some of Russia&#39;s far right nationalists.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>60 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC Three</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 28 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half g4--one-whole">
+                <a
+href="/iplayer/episode/b086zdm4/the-witness-for-the-prosecution-12-an-agatha-christie-mystery"
+class="thumbnail-item stat thumbnail-item--with-overlay"
+data-object-pid="b086zdm4"
+data-object-position="12-B"
+data-object-type="episode-featured"
+data-object-override="sub-syn"
+
+data-object-title="The Witness for the Prosecution"
+>
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The Witness for the Prosecution</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">1/2 An Agatha Christie mystery</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m3pyr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m3pyr.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04m3pyr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04m3pyr.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04m3pyr.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04m3pyr.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04m3pyr.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+        <div class="thumbnail-item__overlay">
+            <div class="overlay overlay--with-details overlay--with-icon">
+    <div class="overlay__text">
+        <p class="overlay__text__inner typo typo--canary">A dashing young man is accused of murdering a rich widow for her vast fortune.</p>
+    </div>
+      <div class="overlay__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+      <div class="overlay__details">
+          <p class="overlay__label typo typo--robin">
+                <strong>60 Mins</strong>
+                  <span aria-hidden="true">|</span>
+                <strong class="overlay__label__highlight">BBC One</strong>
+          </p>
+            <p class="typo typo--bullfinch">Available for 10 days</p>
+      </div>
+</div>
+
+        </div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+
+        </ol>
+    </div>
+</li>
+
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol viewBox="0 0 32 32" id="gel-icon-refresh">
+      <path d="M32,0h-8h-4v0.5V4v0.7V12h4V7.1c2.4,2.2,4,5.4,4,8.9c0,6.6-5.4,12-12,12v4c8.8,0,16-7.2,16-16c0-4.8-2.1-9.1-5.4-12H32V0z"/>
+      <path d="M8,24.9c-2.4-2.2-4-5.4-4-8.9C4,9.4,9.4,4,16,4V0C7.2,0,0,7.2,0,16c0,4.8,2.1,9.1,5.4,12H0v4h8h4v-0.5V28v-0.7V20H8V24.9z"/>
+    </symbol>
+    <symbol viewBox="0 0 32 32" id="gel-icon-no">
+      <polygon points="32,3.5 28.5,0 16,12.5 3.5,0 0,3.5 12.5,16 0,28.5 3.5,32 16,19.5 28.5,32 32,28.5 19.5,16 	"/>
+    </symbol>
+  </defs>
+</svg>
+
+ </ol>  <div class="stream-modules trailers script-visible wp8-hidden"> <div class="stream-module stream-module--last stream-module--with-stream-title"> <ol class="grid__row"> <li class="stream-split grid ">
+        <div class="grid__item">
+            <h2 class="stream-title typo typo--heron">Trailers</h2>
+        </div>
+    <div class="grid__item">
+        <ol class="grid__row">
+                <li class="grid__item js-category-mvt one-whole g4--one-half">
+        <ol class="grid__row trailers__grid__row">
+            <li class="grid__item one-half">
+                <a
+href="#trailers|p04nwqff"
+class="thumbnail-item stat"
+data-object-pid="p04nwqff"
+data-object-position="1-A"
+data-object-type="clip"
+
+data-object-tleo="b088s45m"
+data-object-title="Taboo"
+data-object-promotion-type="available_now">
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Period Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Taboo</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Tom Hardy stars in a dark family tale of love and treachery</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nwsqm.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nwsqm.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04nwsqm.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04nwsqm.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04nwsqm.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04nwsqm.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04nwsqm.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+            <div class="thumbnail-item__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+            <div class="thumbnail-item__icon__label">1 Min</div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="#trailers|p04m3k6q"
+class="thumbnail-item stat"
+data-object-pid="p04m3k6q"
+data-object-position="1-B"
+data-object-type="clip"
+
+data-object-tleo="b086z959"
+data-object-title="The Witness for the Prosecution"
+data-object-promotion-type="available_now">
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Crime Drama
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>The Witness for the Prosecution</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">An Agatha Christie adaptation</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04l82kl.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04l82kl.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04l82kl.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04l82kl.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04l82kl.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04l82kl.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04l82kl.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+            <div class="thumbnail-item__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+            <div class="thumbnail-item__icon__label">1 Min</div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+    <li class="grid__item js-category-mvt one-whole g4--one-half">
+        <ol class="grid__row trailers__grid__row">
+            <li class="grid__item one-half">
+                <a
+href="#trailers|p04m7s2r"
+class="thumbnail-item stat"
+data-object-pid="p04m7s2r"
+data-object-position="2-A"
+data-object-type="clip"
+
+data-object-tleo="p04kspsl"
+data-object-title="Hayley"
+data-object-promotion-type="available_now">
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Documentary
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Hayley</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Exploring the issues affecting twentysomethings today</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04lj48r.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04lj48r.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04lj48r.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04lj48r.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04lj48r.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04lj48r.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04lj48r.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+            <div class="thumbnail-item__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+            <div class="thumbnail-item__icon__label">1 Min</div>
+    </div>
+</a>
+
+            </li>
+            <li class="grid__item one-half">
+                <a
+href="#trailers|p04m7s5n"
+class="thumbnail-item stat"
+data-object-pid="p04m7s5n"
+data-object-position="2-B"
+data-object-type="clip"
+
+data-object-tleo="b052ql4f"
+data-object-title="Uncle"
+data-object-promotion-type="available_now">
+    <div class="thumbnail-item__desc">
+        <div class="typo typo--robin">
+            <strong class="thumbnail-item__desc__label">
+                    Comedy
+            </strong>
+        </div>
+        <h3 class="thumbnail-item__title typo typo--skylark"><strong>Uncle</strong></h3>
+        <p class="thumbnail-item__subtitle typo typo--canary">Return of the irresponsible musician and his neurotic nephew</p>
+    </div>
+
+    <div class="thumbnail-item__img">
+        <div class="rs-image">
+    <picture>
+        <!--[if IE 9]><video style="display:none;"><![endif]-->
+            <source media="(min-width: 1008px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04lcjvr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04lcjvr.jpg 352w" sizes="232px">
+            <source media="(min-width: 400px) and (max-width: 1007px)" srcset="https://ichef.bbci.co.uk/images/ic/234x131/p04lcjvr.jpg 234w,https://ichef.bbci.co.uk/images/ic/352x198/p04lcjvr.jpg 352w,https://ichef.bbci.co.uk/images/ic/640x360/p04lcjvr.jpg 640w" sizes="calc(50vw - 16px)">
+            <source media="(max-width: 399px)" srcset="https://ichef.bbci.co.uk/images/ic/176x99/p04lcjvr.jpg 176w,https://ichef.bbci.co.uk/images/ic/272x153/p04lcjvr.jpg 272w" sizes="calc(50vw - 12px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="https://static.bbci.co.uk/tviplayer/img/episode_placeholder.jpg" alt="">
+    </picture>
+</div>
+
+            <div class="thumbnail-item__icon icon-block"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer"></i></div>
+            <div class="thumbnail-item__icon__label">1 Min</div>
+    </div>
+</a>
+
+            </li>
+        </ol>
+    </li>
+
+        </ol>
+    </div>
+</li>
+ </ol> </div> </div>  </div> <div class="end-panel stats-endpanel" data-object-count="3">
+    <div class="grid">
+            <div class="grid__item one-whole g3--one-third">
+                <a href="/radio" class="end-panel__item stat">
+    <h2 class="end-panel__title typo typo--skylark"><strong>iPlayer Radio</strong></h2>
+    <h3 class="end-panel__desc typo typo--canary">The place to enjoy all things radio</h3>
+        <p class="end-panel__icon"><i aria-hidden="true" class="icon tviplayericon tviplayericon-iplayer-radio"></i></p>
+</a>
+
+            </div>
+            <div class="grid__item one-whole g3--one-third">
+                <a href="http://www.bbc.co.uk/programmes/articles/d649688a-8744-4eaa-991b-5c4e6e4aa264" class="end-panel__item stat">
+    <h2 class="end-panel__title typo typo--skylark"><strong>Newsletter</strong></h2>
+    <h3 class="end-panel__desc typo typo--canary">Sign in to receive weekly highlights & recommendations</h3>
+        <p class="end-panel__icon"><i aria-hidden="true" class="icon tviplayericon tviplayericon-newsletter"></i></p>
+</a>
+
+            </div>
+            <div class="grid__item one-whole g3--one-third">
+                <a href="http://iplayerhelp.external.bbc.co.uk/tv/change_feedback" class="end-panel__item stat">
+    <h2 class="end-panel__title typo typo--skylark"><strong>Notice something different?</strong></h2>
+    <h3 class="end-panel__desc typo typo--canary">We sometimes try out different things in iPlayer. <span class='end-panel__cta'>Find out more</span></h3>
+</a>
+
+            </div>
+    </div>
+</div>
+ </div>  </div>     <div id="tvip-footer-wrap"> <script type="text/javascript">  var el = document.getElementById('tvip-footer-wrap'); el.className += el.className ? ' enhanced' : 'enhanced'; </script> <div class="b-g-m tvip-clearfix tvip-footer" role="complementary"> <h2 class="tvip-hide">Location and Language</h2> <div class="location-switcher tvip-clearfix">
+    <a class="change-loc-link js-loc-show" href="#change_loc">
+        <span>
+            Change location:
+        </span>
+        <span class="the-loc js-loc-current">
+        </span>
+    </a>
+    <div class="change-loc-popup js-loc-popup" tabindex="-1" data-setting-name="location">
+        <div class="close-button">
+            <a tabindex="-1" class="close">
+                <i aria-hidden="true" class="icon tviplayericon tviplayericon-no"></i>
+                <span class="tvip-hide">
+                    Close
+                </span>
+            </a>
+        </div>
+
+        <div class="nations tvip-clearfix">
+            <h3 class="tvip-hide">
+                Nations
+            </h3>
+            <ul class="left">
+                    <li data-area="en" data-label="England" data-key="england" data-value="en">
+                        <a href="#england" class="stat">
+                            England
+                        </a>
+                    </li>
+                    <li data-area="ni" data-label="Northern Ireland" data-key="northern_ireland" data-value="ni">
+                        <a href="#northern_ireland" class="stat">
+                            Northern Ireland
+                        </a>
+                    </li>
+            </ul>
+            <ul class="right">
+                    <li data-area="sc" data-label="Scotland" data-key="scotland" data-value="sc">
+                        <a href="#scotland" class="stat">
+                            Scotland
+                        </a>
+                    </li>
+                    <li data-area="wa" data-label="Wales" data-key="wales" data-value="wa">
+                        <a href="#wales" class="stat">
+                            Wales
+                        </a>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="regions tvip-clearfix">
+            <h3 class="tvip-hide">
+                Regions
+            </h3>
+            <ul class="left">
+                    <li data-area="ca" data-label="Cambridge" data-key="cambridge" data-value="ca">
+                        <a href="#cambridge" class="stat">
+                            Cambridge
+                        </a>
+                    </li>
+                    <li data-area="ci" data-label="Channel Islands" data-key="channel_islands" data-value="ci">
+                        <a href="#channel_islands" class="stat">
+                            Channel Islands
+                        </a>
+                    </li>
+                    <li data-area="ea" data-label="East" data-key="east" data-value="ea">
+                        <a href="#east" class="stat">
+                            East
+                        </a>
+                    </li>
+                    <li data-area="em" data-label="East Midlands" data-key="east_midlands" data-value="em">
+                        <a href="#east_midlands" class="stat">
+                            East Midlands
+                        </a>
+                    </li>
+                    <li data-area="ey" data-label="East Yorks &amp; Lincs" data-key="east_yorkshire" data-value="ey">
+                        <a href="#east_yorkshire" class="stat">
+                            East Yorks &amp; Lincs
+                        </a>
+                    </li>
+                    <li data-area="lo" data-label="London" data-key="london" data-value="lo">
+                        <a href="#london" class="stat">
+                            London
+                        </a>
+                    </li>
+                    <li data-area="ne" data-label="North East &amp; Cumbria" data-key="north_east" data-value="ne">
+                        <a href="#north_east" class="stat">
+                            North East &amp; Cumbria
+                        </a>
+                    </li>
+                    <li data-area="nw" data-label="North West" data-key="north_west" data-value="nw">
+                        <a href="#north_west" class="stat">
+                            North West
+                        </a>
+                    </li>
+            </ul>
+            <ul class="right">
+                    <li data-area="ox" data-label="Oxfordshire" data-key="oxford" data-value="ox">
+                        <a href="#oxford" class="stat">
+                            Oxfordshire
+                        </a>
+                    </li>
+                    <li data-area="so" data-label="South" data-key="south" data-value="so">
+                        <a href="#south" class="stat">
+                            South
+                        </a>
+                    </li>
+                    <li data-area="se" data-label="South East" data-key="south_east" data-value="se">
+                        <a href="#south_east" class="stat">
+                            South East
+                        </a>
+                    </li>
+                    <li data-area="sw" data-label="South West" data-key="south_west" data-value="sw">
+                        <a href="#south_west" class="stat">
+                            South West
+                        </a>
+                    </li>
+                    <li data-area="we" data-label="West" data-key="west" data-value="we">
+                        <a href="#west" class="stat">
+                            West
+                        </a>
+                    </li>
+                    <li data-area="wm" data-label="West Midlands" data-key="west_midlands" data-value="wm">
+                        <a href="#west_midlands" class="stat">
+                            West Midlands
+                        </a>
+                    </li>
+                    <li data-area="yo" data-label="Yorkshire" data-key="yorks" data-value="yo">
+                        <a href="#yorks" class="stat">
+                            Yorkshire
+                        </a>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="loc-popup-arrow"></div>
+        <div class="selected-icon-template">
+            <i aria-hidden="true" class="icon tviplayericon tviplayericon-yes tviplayericon-leading"></i>
+        </div>
+    </div>
+</div>
+ <div class="language-switcher tvip-clearfix">
+    <a class="change-lang-link js-lang-show" href="#change_lang">
+        <span>Change language:</span>
+        <span class="the-lang">English</span>
+    </a>
+
+    <div class="change-lang-popup js-lang-popup" tabindex="-1" data-setting-name="language">
+        <div class="close-button">
+            <a tabindex="-1" class="close">
+                <i aria-hidden="true" class="icon tviplayericon tviplayericon-no"></i>
+                <span class="tvip-hide">Close</span>
+            </a>
+        </div>
+
+        <div class="languages tvip-clearfix">
+            <ul>
+                    <li class="selected">
+                        <span data-lang="en-GB" data-value="en-GB">English <i aria-hidden="true" class="icon tviplayericon tviplayericon-yes tviplayericon-leading"></i></span>
+                    </li>
+
+
+                    <li>
+                        <a href="#cy-GB" class="stat" data-lang="cy-GB" data-value="cy-GB">
+                            Cymraeg
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#ga-GB" class="stat" data-lang="ga-GB" data-value="ga-GB">
+                            Gaeilge
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#gd-GB" class="stat" data-lang="gd-GB" data-value="gd-GB">
+                            Gàidhlig
+                        </a>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="lang-popup-arrow"></div>
+    </div>
+</div>
+ <h2 class="tvip-hide"> Help and tools </h2> <div class="tvip-clearfix footerLinks"> <ul class="tvip-clearfix">  <li id="newsletter"> <a href="http://www.bbc.co.uk/programmes/articles/d649688a-8744-4eaa-991b-5c4e6e4aa264" class="stat">  Newsletter </a>  <span class="sep">|</span>  </li>  <li id="follow_on_twitter"> <a href="https://twitter.com/bbciplayer" class="stat">  Follow on Twitter </a>  <span class="sep">|</span>  </li>  <li id="parental_guidance_lock"> <a href="http://www.bbc.co.uk/iplayer/guidance/" class="stat">  Parental Controls </a>  <span class="sep">|</span>  </li>  <li id="help_and_contact"> <a href="http://iplayerhelp.external.bbc.co.uk/help/" class="stat">  Help &amp; FAQ </a>  </li>  </ul> </div> </div> </div>   </div> </div> <!--[if lte IE 8]> <style type="text/css"> body { min-width: 1024px; } #responsive-placeholder { z-index: 4; } </style> <![endif]--> <div id="responsive-placeholder"> <div class="height"></div> <div class="width"></div> </div> </div>
+<div id="orb-footer" class="orb-footer"><div id="navp-orb-footer-promo"></div><aside role="complementary"><div id="orb-aside" class="orb-nav-sec b-r b-g-p"><div class="orb-footer-inner" role="navigation" aria-label="BBC"><h2 class="orb-footer-lead">Explore the BBC</h2><div class="orb-footer-primary-links"><ul><li class="orb-nav-news"><a href="http://www.bbc.co.uk/news">News</a></li><li class="orb-nav-sport"><a href="http://www.bbc.co.uk/sport">Sport</a></li><li class="orb-nav-weather"><a href="http://www.bbc.co.uk/weather">Weather</a></li><li class="orb-nav-iplayer"><a href="http://www.bbc.co.uk/iplayer">iPlayer</a></li><li class="orb-nav-tv"><a href="http://www.bbc.co.uk/tv">TV</a></li><li class="orb-nav-radio"><a href="http://www.bbc.co.uk/radio">Radio</a></li><li class="orb-nav-cbbc"><a href="http://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="http://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="http://www.bbc.co.uk/food">Food</a></li><li class="orb-nav-iwonder"><a href="http://www.bbc.co.uk/iwonder">iWonder</a></li><li class="orb-nav-bitesize"><a href="http://www.bbc.co.uk/education">Bitesize</a></li><li class="orb-nav-travel"><a href="http://www.bbc.co.uk/travel">Travel</a></li><li class="orb-nav-music"><a href="http://www.bbc.co.uk/music">Music</a></li><li class="orb-nav-earth"><a href="http://www.bbc.com/earth">Earth</a></li><li class="orb-nav-arts"><a href="http://www.bbc.co.uk/arts">Arts</a></li><li class="orb-nav-digital"><a href="http://www.bbc.co.uk/makeitdigital">Make It Digital</a></li><li class="orb-nav-taster"><a href="http://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-local"><a href="http://www.bbc.co.uk/local">Local</a></li></ul></div></div></div></aside><footer role="contentinfo"><div id="orb-contentinfo" class="orb-nav-sec b-r b-g-p"><script>window.orb.worldwideFooterlinks = '<li class="orb-footer-ads"><a href="https://advertising.bbcworldwide.com/">Advertise with us<'+'/a><'+'/li><li class="orb-footer-adchoices"><a href="http://www.bbc.com/usingthebbc/cookies/what-is-online-behavioural-advertising/">Ad choices<'+'/a><'+'/li>';</script><div class="orb-footer-inner"><ul><li class="orb-footer-terms"><a href="http://www.bbc.co.uk/usingthebbc/terms/">Terms of Use</a></li><li class="orb-footer-about"><a href="http://www.bbc.co.uk/aboutthebbc">About the BBC</a></li><li class="orb-footer-privacy"><a href="http://www.bbc.co.uk/usingthebbc/privacy/">Privacy Policy</a></li><li class="orb-footer-cookies"><a href="http://www.bbc.co.uk/usingthebbc/cookies/">Cookies</a></li><li class="orb-footer-accessibility"><a href="http://www.bbc.co.uk/accessibility/">Accessibility Help</a></li><li class="orb-footer-parental"><a href="http://www.bbc.co.uk/guidance">Parental Guidance</a></li><li class="orb-footer-contact"><a href="http://www.bbc.co.uk/contact">Contact the BBC</a></li></ul><small><em class="orb-hilight">Copyright &copy; 2017 BBC.</em> The BBC is not responsible for the content of external sites. <span class="orb-footer-links"><a href="http://www.bbc.co.uk/help/web/links/" class="orb-hilight">Read about our approach to external linking.</a></span></small></div></div></footer></div><script id="orb-js-script" data-assetpath="//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/" src="//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/js/orb.min.js"></script><script type="text/javascript">require(['orb/cookies'], function(bbccookies) {
+        var disabledByCookie = (parseInt(bbccookies.get('ckns_nav_promofail')) || 0) >= 3;
+        if (!disabledByCookie) {
+            require(['orb/fig'], function(orbFig) {
+                orbFig.load(function(fig) {
+                    if (fig.geo.isUK()) {
+                        require(['orb/async/_footerpromo'], function(promo) {
+                            promo.init('//navpromo.api.bbci.co.uk', '')
+                        })
+                    }
+                });
+            });
+        }
+    });</script><script type="text/javascript">/*<![CDATA[*/
+        require(['orb/fig', 'orb/nav'], function(fig, nav) {
+            fig.load(function(fig) {
+                if (fig.geo.isUK()) {
+                    nav.loadJs('//nav.files.bbci.co.uk/orbit/1.0.0-346.93a6467/js/edr.min.js');
+                }
+            });
+        });
+    /*]]>*/</script><script type="text/javascript">require(["istats-1","orb/cookies"],function(t,o){if(o.isAllowed("s1"))try{if(!require.s.contexts._.config.paths.idcta)return void t.invoke();require(["idcta/idcta-1"],function(o){o&&"function"==typeof o.getIStatsLabels&&t.addLabels(o.getIStatsLabels()),t.invoke()},function(t){throw t})}catch(o){console&&"function"==typeof console.log&&console.log("an exception occurred while adding idcta labels to istats, invoking istats without them",o),t.invoke()}});</script><script type="text/javascript">require.config({
+            paths: {
+                "mybbc/templates": '//mybbc.files.bbci.co.uk/notification-ui/2.6.12-mvt/templates',
+                "mybbc/notifications": '//mybbc.files.bbci.co.uk/notification-ui/2.6.12-mvt/js'
+            }
+        });
+
+        require(['mybbc/notifications/NotificationsMain', 'idcta/idcta-1'], function (NotificationsMain, idcta) {
+            var loadNotifications = function (fig) {
+                if (fig.geo.isUK()) {
+                    NotificationsMain.run(idcta, '//mybbc.files.bbci.co.uk/notification-ui/2.6.12-mvt/');
+                }
+            };
+            var orbFig = window.orb.fig;
+            if (typeof orbFig.load === 'function') {
+                // Use new async API from Orbit
+                orbFig.load(loadNotifications, loadNotifications);
+            } else {
+                // Use old sync-only API from PAL orbfig project
+                loadNotifications(orbFig);
+            }
+        });</script><script type="text/javascript">if( window.SEARCHBOX.suppress === false && window.SEARCHBOX.locale && /^en-?.*?/.test(window.SEARCHBOX.locale) ){
+   require.config({
+     paths: {
+       "search/searchbox": window.SEARCHBOX.searchboxAppStaticPrefix
+     }
+   });
+
+   require(['search/searchbox/searchboxDrawer'], function(SearchboxDrawer) {
+     SearchboxDrawer.run(window.SEARCHBOX);
+   });
+ }</script><!-- BBCDOTCOM bodyLast --><div class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics) { bbcdotcom.analytics.page(); } /*]]>*/</script><noscript><img src="//ssc.api.bbc.com/?c1=2&c2=19293874&ns_site=bbc&name=" height="1" width="1" alt=""></noscript><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies && bbccookies.readPolicy('performance') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain = "bbc.co.uk"; _sf_async_config.title = "Homepage"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections = "Homepage"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path = "/"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement("script"); e.setAttribute("language", "javascript"); e.setAttribute("type", "text/javascript"); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != "function") ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/</script></div><!-- BBCDOTCOM all code in page --> <script type="text/javascript"> window.fixSvg = function () { var el = document.getElementById('tviplayer'), svgSupport = document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1"), svgs; if ((svgSupport) && (el.className.indexOf('svg-support') === -1)) { el.className += ' svg-support'; } if (!svgSupport && document.querySelectorAll) { svgs = document.querySelectorAll('.js-svg'); for (var i = 0; i < svgs.length; i++) { var svg = svgs[i]; if (svg.getAttribute('src')) { if (svg.className.indexOf('fallenback') === -1) { if (svg.getAttribute('data-fallback')) { svg.setAttribute('src', svg.getAttribute('data-fallback')); } svg.className += ' fallenback'; } } } } }; window.fixSvg(); </script> <script type="text/javascript"> /** Require config setup */ var requireConf = { locale: 'en-gb', catchError: true, map: { '*': { 'jquery': 'jquery-1.9' } }  };   requirejs.onError = function (err) { if (err) { new Image().src = '//r.bbci.co.uk/e/iplayer/home/requirejs/' + err.requireType + '/' + (err.requireModules ? err.requireModules.toString() : ''); } throw err; };  require(requireConf, [ 'packages/common' ], function () { /* Apply an IE10 class to the tviplayer element */ if (/*@cc_on!@*/false && document.documentMode === 10) { document.getElementById('tviplayer').className += ' ie10'; } else if (document.documentMode === 11) { document.getElementById('tviplayer').className += ' ie11'; }      require(
+        ['pageMediators/iplayerMediator'],
+        function (mediator) {
+            window.mediatorDefer = mediator.bind({"Global":{"optOutLinkReplacementsSelector":"#newsletter, #follow_on_twitter","hasFindTools":true},"Banner":{"buyAndKeepUrl":"\/iplayer\/features\/30-days"},"LocalePagePrefix":"iplayer_homepage","StaticHost":"http:\/\/static.bbci.co.uk\/tviplayer\/1.139.0"}, document.getElementById('tviplayer'));
+        }
+    );  } ); </script> <script> if (navigator.userAgent.indexOf('Windows Phone 8') !== -1) { document.body.className = document.body.className + ' wp8'; if (window.external && 'notify' in window.external) { if (typeof navigator.msLaunchUri !== 'undefined') { window.external.notify("config:http://www.bbc.co.uk/iplayer/config/windows-phone"); require(['utils/windowsPhone']); } } else if (!(window.location.href.indexOf("/newsletter") > -1) && window.location.pathname !== '/tv') { window.location.href = 'http://static.bbci.co.uk/tviplayer/1.139.0/wp8/upsell.html'; } } else if (navigator.userAgent.indexOf('Windows Phone 10') !== -1) { if (window.external && 'notify' in window.external) { document.body.className = document.body.className + ' wp10'; } } </script> <!-- comscore mmx - start --> <script> var _comscore = _comscore || []; _comscore.push({ c1: "2", c2: "17986528"}); (function() { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })(); </script> <noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=17986528&cv=2.0&cj=1" class="image-hide" /> </noscript> <!-- comscore mmx - end --> </body> </html>  <!-- cached:  1484488468-->
