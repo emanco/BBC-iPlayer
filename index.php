@@ -1,3 +1,1 @@
-<?php 
-    include 'inc/iplayer.php';
-?>
+<?php include 'inc/iplayer.php'; ?>
