@@ -43,7 +43,7 @@
         
         console.log('ready: '+$);
         
-        // let analytics decide which test to run, ideally even distributed
+        // let analytics decide which test to run
         var chosenVariant = cxApi.chooseVariation();
         
         var testVariants = [
@@ -51,11 +51,12 @@
             console.log('A/B Test: Original Variant. Nothing changes.');
           },  
           function() {   
-            console.log('A/B test: Variant #1. ');
+            console.log('A/B test: Variant #1 running...');
               
+            
           },
           function() {  
-            console.log('A/B test: Variant #2. ');
+            console.log('A/B test: Variant #2 running...');
               
           },
         ];
