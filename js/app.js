@@ -34,6 +34,7 @@
         }
         else {
             window.setTimeout(function() { checkReady(callback); }, 100);
+            
         }
     };
 
