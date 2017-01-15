@@ -1,24 +1,27 @@
 <?php
-/* gets the contents of a file if it exists, otherwise grabs and caches */
+
+/* Gets the iPlayer content and checks first if there is a copy in the cache */
 function get_content($file,$url,$hours = 24,$fn = '',$fn_args = '') {
-    //vars
+    
+    // check the time
 	$current_time = time(); $expire_time = $hours * 60 * 60; $file_time = filemtime($file);
-	//decisions, decisions
+	
+    // check if we can get the cached version
 	if(file_exists($file) && ($current_time - $expire_time < $file_time)) {
 		//echo 'returning from cached file';
 		return file_get_contents($file);
 	}
+    // otherwise get a fresh one
 	else {
 		$content = get_url($url);
 		if($fn) { $content = $fn($content,$fn_args); }
 		$content.= '<!-- cached:  '.time().'-->';
 		file_put_contents($file,$content);
-		//echo 'retrieved fresh from '.$url.':: '.$content;
 		return $content;
 	}
 }
 
-/* gets content from a URL via curl */
+/* Returns the content of a given url */
 function get_url($url) {
     
 	$ch = curl_init();
@@ -31,13 +34,10 @@ function get_url($url) {
 }
 
 
+$f = 'cache/iplayer.txt';               // cache
+$u = 'http://www.bbc.co.uk/iplayer';    // source
 
-$f = 'cache/iplayer.txt';
-$u = 'http://www.bbc.co.uk/iplayer';
-
-//$c = get_content($f, $u);
-
-$dom = get_content($f, $u);
+$dom = get_content($f, $u);             // dom
 
 // add the script in the bottom seamlessly before the closing body tag
 $js = '<script src="js/app.js"></script>';
