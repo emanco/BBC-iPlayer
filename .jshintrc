@@ -1,43 +1,10 @@
 {
-  // other settings...
-  // ENVIRONMENTS
-  "browser": true, // Is in most configs by default
+  // excludes for js hint
+  "browser": true, 
   "node": true,
-  // others (e.g. yui, mootools, rhino, worker, etc.)
   "globals": {
     "$":false,
     "cxApi":false,
-    "jQuery":false,
-    "angular":false,
-    "soundManager":false,
-    "ActiveXObject":false,
-    "SC":false,
-    "console":false,
-    "Raphael":false,
-    "TweenMax":false,
-    "TimelineMax":false,
-    "TweenLite":false,
-    "ThrowPropsPlugin":false,
-    "Draggable":false,
-    "Cubic":false,
-    "Power1":false,
-    "Power2":false,
-    "Modernizr":false,
-    "createjs":false,
-    "Touchy":false,
-    "requirejs":false,
-    "define":false,
-    "Cufon":false,
-    "EB":false,
-    "EBG":false,
-    "onInit":false,
-    "images":false,
-    "ss":false,
-    "lib":false,
-    "banner":false,
-    "$renderEnabled":false,
-    "THREE":false
-      
-    // other explicit global names to exclude
+    "jQuery":false
   }
 }
