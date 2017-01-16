@@ -1,6 +1,6 @@
 <?php
 
-/* Gets the iPlayer content and checks first if there is a copy in the cache */
+// Gets the iPlayer content and checks first if there is a copy in the cache 
 function get_content($file,$url,$hours = 1,$fn = '',$fn_args = '') {
     
     // check the time
@@ -21,7 +21,7 @@ function get_content($file,$url,$hours = 1,$fn = '',$fn_args = '') {
 	}
 }
 
-/* Returns the content of a given url */
+// Returns the content of a given url 
 function get_url($url) {
     
 	$ch = curl_init();
@@ -40,11 +40,14 @@ $u = 'http://www.bbc.co.uk/iplayer';    // source
 $dom = get_content($f, $u);             // dom
 
 // add the script in the bottom seamlessly before the closing body tag
-$js = '<script src="js/app.js"></script>';
+$js = '<script src="js/app.min.js"></script>';
 $find = '</body>';
 $pos = strpos($dom, $find);
 
 $result = substr_replace($dom, $js, $pos, 0);
 
-echo $result;
+// fix urls so they link to the correct site
+$fixed = str_replace('href="/iplayer','href="https://bbc.co.uk/iplayer',$result);
+
+echo $fixed;
 ?>
