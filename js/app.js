@@ -141,8 +141,7 @@
                                 backgroundColor: "#f54997",
                                 color: "#fff",
                                 paddingLeft: "2px",
-                                paddingRight: "2px",
-                                marginBottom: "1px"
+                                paddingRight: "2px"
                         });
                     
                         
