@@ -5,6 +5,8 @@
   "globals": {
     "$":false,
     "cxApi":false,
-    "jQuery":false
+    "jQuery":false,
+    "TweenMax":false,
+    "Cubic":false
   }
 }
