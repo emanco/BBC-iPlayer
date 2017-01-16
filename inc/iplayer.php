@@ -1,7 +1,7 @@
 <?php
 
 /* Gets the iPlayer content and checks first if there is a copy in the cache */
-function get_content($file,$url,$hours = 24,$fn = '',$fn_args = '') {
+function get_content($file,$url,$hours = 1,$fn = '',$fn_args = '') {
     
     // check the time
 	$current_time = time(); $expire_time = $hours * 60 * 60; $file_time = filemtime($file);
