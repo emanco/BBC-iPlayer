@@ -14,7 +14,6 @@
     var $experimentID = 'Lo1rjfmpRxuVEP00nWv-XA';
     
     
-    
     // load method for javascript libraries
     function loadJS(url) {
         var obj = document.createElement("SCRIPT");
@@ -355,18 +354,13 @@
             return vars;
         }
         
-        var v = getUrlVars()["variant"];
+        var v = getUrlVars()["variant"];    // parse var
 
         // check if var is set
         if (v!== '' && v !== null && v !== undefined && v >=0 && v <=2) {
-            
-            //console.log('Calling variant from var: '+v);
             test.init(v);
-            
         // if not let Google Analytics decide
         } else {
-            
-            //console.log('Calling variant chosen by Google Analytics: '+chosenVariant);
             test.init(chosenVariant);
         }
     });
