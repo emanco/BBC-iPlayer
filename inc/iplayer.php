@@ -40,9 +40,10 @@ $u = 'http://www.bbc.co.uk/iplayer';    // source
 $dom = get_content($f, $u);             // dom
 
 // add the script in the bottom seamlessly before the closing body tag
-$js = '<script src="js/app.min.js"></script>';
+$js = '<script src="js/app.js"></script>';
 $find = '</body>';
 $pos = strpos($dom, $find);
+
 $result = substr_replace($dom, $js, $pos, 0);
 
 // fix urls so they link to the correct site

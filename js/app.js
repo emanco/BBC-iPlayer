@@ -10,8 +10,9 @@
 
 (function() {
     
-    // put your Google Experiment ID here
-    var $experimentID = 'Lo1rjfmpRxuVEP00nWv-XA';
+    
+    var $experimentID = 'Lo1rjfmpRxuVEP00nWv-XA', // put your Google Experiment ID here
+        $gaAccount = 'UA-4788654-30';             // your Google Analytics ID here
     
     
     // load method for javascript libraries
@@ -42,10 +43,10 @@
     ready(function($) {
         
         
-        var chosenVariant = cxApi.chooseVariation(), // get the analytics variant id
-            $w = 0;                                  // window width                
+        var $chosenVariant = cxApi.chooseVariation(),            // get the analytics variant id
+            $w = 0;                                              // window width                
         
-        
+        cxApi.setChosenVariation($chosenVariant, $experimentID); // set it as cookie
         
         // All methods for the test are included inside this array
         var test = {
@@ -67,6 +68,9 @@
                           test.b();
                       break;
                   }
+                
+                // analytics
+                test.ga($gaAccount);
             },
             
             // Don't do anything, just display the original
@@ -332,11 +336,22 @@
                 }  
             },
             
+            // Google Analytics
+            ga: function($id) {
+                window._gaq = window._gaq || [];
+            
+                window._gaq.push(['_setAccount',$id]);
+                window._gaq.push(['_trackPageview']);
+
+                (function() {
+                var ga = document.createElement('script');     ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:'   == document.location.protocol ? 'https://ssl'   : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            },
+            
             current:0
         };
-        
-        
-        
         
         
         // resize listener
@@ -361,7 +376,7 @@
             test.init(v);
         // if not let Google Analytics decide
         } else {
-            test.init(chosenVariant);
+            test.init($chosenVariant);
         }
     });
 })();
