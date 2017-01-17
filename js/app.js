@@ -1,6 +1,6 @@
 /*!
  * Version: 0.2.2
- * Updated: 16/01/2017
+ * Updated: 17/01/2017
  *
  * @license Copyright (c) 2017. All rights reserved.
  * @author: Emanuele Manco, me@emanuelemanco.com
